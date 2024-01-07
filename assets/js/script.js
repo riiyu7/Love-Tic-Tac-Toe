@@ -53,10 +53,16 @@ restartBtn.addEventListener("click", () => {
 const winfunction = (letter) => {
     diasbleButtons();
     if (letter == "X") {
-        msgRef.innerHTML = "&#x1f389; <br> 'X' Wins";
+        msgRef.innerHTML = "&#x1F389; <br> 'X' Wins";
     } else {
-        msgRef.innerHTML = "&#x1f389; <br> 'O' Wins";
+        msgRef.innerHTML = "&#x1F389; <br> 'O' Wins";
     }
+};
+
+//Function for draw
+const drawFunction = () => {
+    disableButtons();
+    msgRef.innerHTML = "&#x1F60E; <br> It's a Draw!";
 };
 
 //Win Logic
