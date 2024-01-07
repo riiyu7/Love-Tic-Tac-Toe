@@ -4,6 +4,7 @@
 * body {
     height: 100vh;
     background: linear-gradient(135deg, #8052ec, #d161ff);
+    font-family: Raleway, sans-serif;
   }
 
   /* CSS styles for navigation */
@@ -14,13 +15,12 @@
     align-items: center;
     justify-content: space-between;
     padding: 10px 0;
+    font-family: Raleway, sans-serif;
   }
 
   .logo {
-        width: 130px;
-        cursor: pointer;
-        padding-top: 5px;
-        padding-left: 10px;
+    width: 180px;
+    cursor: pointer;
   }
 
   nav ul {
@@ -30,15 +30,32 @@
     padding-right: 60px;
   }
 
-nav ul li {
+  nav ul li {
     display: inline-block;
     margin: 10px 20px;
-}
+  }
 
-nav ul li a {
-    color: white;
+  nav ul li a {
+    color: #ffffff;
     text-decoration: none;
-}
+  }
+
+  .letsplaybtn {
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    border: 0;
+    outline: 0;
+    border-radius: 5px;
+    background: #f5168d;
+    color: #fff;
+    font-weight: 500;
+    cursor: pointer;
+  }
+
+  .content{
+    margin-top: 14%
+  }
 
 /* CSS styles for Play HTML */
 
