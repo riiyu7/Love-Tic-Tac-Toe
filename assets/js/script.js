@@ -52,6 +52,11 @@ restartBtn.addEventListener("click", () => {
 //This Function is executed when a player wins
 const winfunction = (letter) => {
     diasbleButtons();
+    if (letter == "X") {
+        msgRef.innerHTML = "&#x1f389; <br> 'X' Wins";
+    } else {
+        msgRef.innerHTML = "&#x1f389; <br> 'O' Wins";
+    }
 };
 
 //Win Logic
