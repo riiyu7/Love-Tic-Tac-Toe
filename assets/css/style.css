@@ -1,6 +1,13 @@
 /* Importing Google Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;600&display=swap');
 
+
+*  body {
+    height: 100vh;
+    background: linear-gradient(135deg, #8052ec, #d161ff);
+}
+
+
 /* Header */
 
 header {
@@ -18,3 +25,19 @@ header {
 footer {
     background-color: bisque;
 }
+
+
+
+.play {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:  "Raleway", sans-serif;
+}
+
+.play body {
+    height: 100vh;
+    background: linear-gradient(135deg, #8052ec, #d161ff);
+}
+
+
