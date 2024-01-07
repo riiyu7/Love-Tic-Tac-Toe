@@ -20,7 +20,7 @@ let xTurn = true;
 let count = 0;
 
 //Display X/O on click
-btnRef.forEach(element) => {
+btnRef.forEach((element) => {
     element.addEventListener("click", () => {
         if (xTurn) {
             xTurn = false;
@@ -33,5 +33,11 @@ btnRef.forEach(element) => {
             element.innerText = "O";
             element.disabled = true;
         }
-    }
-}
+        // Increment count on each click
+        count += 1;
+        if(count === 9) {
+            //Its a draw since there is only a 9 boxes on the grid
+        }
+        //check for win on every click
+        winchecker
+});
