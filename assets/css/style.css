@@ -147,6 +147,8 @@ html {
     gap: 2vmin;
 }
 
+
+
 .button-option {
     background: #ffffff;
     height: 22vmin;
@@ -156,6 +158,10 @@ html {
     font-size: 12vmin;
     color: #d161ff;
     box-shadow: 0 0 15px rgba(0, 0, 0, 1);
+}
+
+.button-option:hover {
+  background-color: #d161ff;
 }
 
 #restart {
@@ -203,14 +209,8 @@ html {
     display: none;
 }
 
-<!-- Tic Tac Toe Board -->
-  
-<div class="turn-container">
-    <h3>Turn For</h3>
-    <div class="turn-box align">X</div>
-    <div class="turn-box align">O</div>
-    <div class="bg"></div>
-</div>
+/* CSS style for Play Again and win result
+
 
 /* CSS styles for Turn container */
 
