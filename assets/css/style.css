@@ -48,7 +48,6 @@
     font-size: 30px;
   }
   
-  
   .topnav-right {
     float: right;
   }
@@ -118,47 +117,6 @@ h1 p {
     margin-bottom: 25px;
     text-shadow: 1px 1px #0a0027;
   }
-
-
-/* CSS styles for Turn container */
-
-.align {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.turn-container {
-  font-size: 30px;
-  font-weight: 600;
-  text-shadow: 2px 2px #0a0027;
-  line-height: 85px;
-  text-align: center;
-  margin-left: 5%;
-  color: #fff;
-  width: 400px;
-  height: 80px;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr 1fr;
-}
-
-.turn-container h3{
-  grid-column-start: 1;
-  grid-column-end: 3;
-}
-
-.turn-container .turn-box{
-  border: 3px solid #0a0027;
-  font-size: 1.6rem;
-  font-weight: 700;
-}
-
-.turn-container .turn-box:nth-child(even){
-  border-right: none;
-}
-
-
 
 
 /* CSS styles for Tic Tac Toe board */
@@ -244,6 +202,65 @@ html {
 .popup.hide {
     display: none;
 }
+
+<!-- Tic Tac Toe Board -->
+  
+<div class="turn-container">
+    <h3>Turn For</h3>
+    <div class="turn-box align">X</div>
+    <div class="turn-box align">O</div>
+    <div class="bg"></div>
+</div>
+
+/* CSS styles for Turn container */
+
+.align {
+display: flex;
+justify-content: center;
+align-items: center;
+text-align: center;
+}
+
+.turn-container{
+width: 170px;
+height: 80px;
+margin-left: 10%;
+margin-top: 10%;
+display: grid;
+grid-template-columns: 1fr 1fr;
+grid-template-rows: 1fr 1fr;
+position: relative;
+}
+
+.turn-container h3{
+margin: 0;
+text-align: center;
+grid-column-start: 1;
+grid-column-end: 3;
+color: #ffffff;
+}
+
+.turn-container .turn-box{
+border: 3px solid #ffffff;
+font-size: 1.6rem;
+font-weight: 700;
+text-align: center;
+}
+
+.turn-container .turn-box:nth-child(even){
+border-right: none;
+}
+
+.bg{
+position: absolute;
+bottom: 0;
+left: 0;
+width: 85px;
+height: 40px;
+background-color: #ffffff;;
+z-index: -1;
+}
+
 
 /** CSS styles for Footer */
 
