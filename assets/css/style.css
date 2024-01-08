@@ -35,7 +35,7 @@
   }
   
   .topnav a.active {
-    background-color: #04AA6D;
+    background-color: #333;
     color: white;
   }
   
@@ -45,7 +45,9 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    font-size: 30px;
   }
+  
   
   .topnav-right {
     float: right;
