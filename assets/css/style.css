@@ -119,7 +119,19 @@ h1 p {
     text-shadow: 1px 1px #0a0027;
   }
 
-/* CSS styles for Play HTML */
+
+/* CSS styles for Turn container */
+
+.turn-container {font-size: 30px;
+  font-weight: 600;
+  text-shadow: 2px 2px #0a0027;
+  line-height: 85px;
+  margin-left: 5%;
+  color: #fff;
+
+}
+
+/* CSS styles for Tic Tac Toe board */
 
 .play {
     padding: 0;
