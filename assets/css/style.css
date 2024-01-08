@@ -71,6 +71,16 @@
 
   /** Content CSS styles */
 
+  .welcome {
+    font-size: 20px;
+    font-weight: 600;
+    text-shadow: 2px 2px #0a0027;
+    line-height: 85px;
+    margin-left: 35%;
+ 
+    color: #fff;
+  }
+
   .letsplaybtn {
     display: flex;
     align-items: center;
@@ -88,6 +98,7 @@
     margin-top: 10%;
     margin-left: 5%;
     color: #fff;
+    text-shadow: 1px 1px #0a0027;
   }
 
   .content h1 {
@@ -95,6 +106,7 @@
     font-weight: 600;
     line-height: 85px;
     margin-bottom: 25px;
+    text-shadow: 2px 2px #0a0027;
   }
 
 h1 p {
@@ -102,6 +114,7 @@ h1 p {
     font-weight: 60;
     line-height: 30px;
     margin-bottom: 25px;
+    text-shadow: 1px 1px #0a0027;
   }
 
 /** CSS styles for Footer */
