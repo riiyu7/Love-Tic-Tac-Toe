@@ -122,6 +122,12 @@ h1 p {
 
 /* CSS styles for Turn container */
 
+.align {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .turn-container {
   font-size: 30px;
   font-weight: 600;
