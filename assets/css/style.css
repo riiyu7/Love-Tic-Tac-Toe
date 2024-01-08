@@ -122,14 +122,26 @@ h1 p {
 
 /* CSS styles for Turn container */
 
-.turn-container {font-size: 30px;
+.turn-container {
+  font-size: 30px;
   font-weight: 600;
   text-shadow: 2px 2px #0a0027;
   line-height: 85px;
+  text-align: center;
   margin-left: 5%;
   color: #fff;
-
+  width: 400px;
+  height: 80px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
 }
+
+.turn-container h3{
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
+
 
 /* CSS styles for Tic Tac Toe board */
 
