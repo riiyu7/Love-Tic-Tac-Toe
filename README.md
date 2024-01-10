@@ -23,21 +23,22 @@ I have used [coolors.co](https://coolors.co/8052ec-d161ff-333333-f2f2f2-dddddd) 
 
 ### Typography
 
-🛑🛑🛑🛑🛑 START OF NOTES (to be deleted) 🛑🛑🛑🛑🛑
+For Love Tic Tac Toe I used Google Font 'Raleway' as my primary font with Sans-serif being my secondary text.
 
-Explain any fonts and icon libraries used, like Google Fonts and/or Font Awesome.
+- [Raleway](https://fonts.google.com/specimen/Raleway) was used for the primary headers and titles.
 
-Consider adding a link to each font used, and the Font Awesome site if used (or similar icon library).
-
-Example:
-
-🛑🛑🛑🛑🛑 END OF NOTES (to be deleted) 🛑🛑🛑🛑🛑
-
-- [Montserrat](https://fonts.google.com/specimen/Montserrat) was used for the primary headers and titles.
-
-- [Lato](https://fonts.google.com/specimen/Lato) was used for all other secondary text.
+- [Sans-serif] was used as my secondary text should my primary font not load.
 
 - [Font Awesome](https://fontawesome.com) icons were used throughout the site, such as the social media icons in the footer.
+
+### CSS Implementation
+
+Raleway font is included at the beginning of my CSS file using the '@import' method from google Fonts. This ensure's that Raleway is loaded as soon as CSS is loaded.
+
+```css
+/* Importing Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;600&display=swap');
+```
 
 ## User Stories
 
