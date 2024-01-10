@@ -2,10 +2,14 @@
 
 // DOM Elements 
 let btnRef = document.querySelectorAll(".button-option");
-let popupRef = document.querySelector(".popup");
-let newgameBtn = document.getElementById("new-game");
+
+// let popupRef = document.querySelector(".popup");
+// let newgameBtn = document.getElementById("new-game");
 let restartBtn = document.getElementById("restart");
 let msgRef = document.getElementById("message");
+
+let turnXRef = document.getElementById("turnX");
+let turnORef = document.getElementById("turnO");
 
 //Winning Pattern Array
 let winningPattern = [
@@ -27,7 +31,8 @@ let count = 0;
 const disableButtons = () => {
   btnRef.forEach((element) => (element.disabled = true));
   //enable popup
-  popupRef.classList.remove("hide");
+// popupRef.classList.remove("hide");
+restartBtn.textContent = "New Game";
 };
 
 //Enable all buttons (For New Game and Restart)
@@ -38,8 +43,11 @@ const enableButtons = () => {
   });
 
   //disable popup
-  popupRef.classList.add("hide");
+  //popupRef.classList.add("hide");
+  msgRef.innerHTML = "";
+  restartBtn.textContent = "Restart"
 };
+
 //This function is executed when a player wins
 const winFunction = (letter) => {
   disableButtons();
@@ -56,11 +64,12 @@ const drawFunction = () => {
   msgRef.innerHTML = "&#x1F60E; <br> It's a Draw!";
 };
 //New Game
-newgameBtn.addEventListener("click", () => {
-  count = 0;
-  enableButtons();
-});
+//newgameBtn.addEventListener("click", () => {
+  //count = 0;
+  //enableButtons();
+//});
 restartBtn.addEventListener("click", () => {
+  restartBtn.textContent = "Restart";
   count = 0;
   enableButtons();
 });
@@ -91,11 +100,16 @@ btnRef.forEach((element) => {
   element.addEventListener("click", () => {
     if (xTurn) {
       xTurn = false;
+      turnXRef.classList.remove("on")
+      turnORef.classList.add("on")
       //Display X
       element.innerText = "X";
       element.disabled = true;
     } else {
       xTurn = true;
+      turnXRef.classList.add("on")
+      turnORef.classList.remove("on")
+
       //Display Y
       element.innerText = "O";
       element.disabled = true;
@@ -107,6 +121,7 @@ btnRef.forEach((element) => {
     }
     //Check for win on every click
     winChecker();
+    
   });
 });
 //Enable Buttons and disable popup on load page
