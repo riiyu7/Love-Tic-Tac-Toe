@@ -2,11 +2,8 @@
 
 Welcome to 'Love Tic Tac Toe'. Love Tic Tac Toe  is an interactive web-based game of the classic strategy of tic-tac-toe, a fun free game for all ages for the times where you need to sit back, relax and play.
 
-![screenshot](documentation/readme/mockup.png)
+![screen](documentation/readme/mockup.png)
 
-
-
-🛑🛑🛑🛑🛑 END OF NOTES (to be deleted) 🛑🛑🛑🛑🛑
 
 ## UX
 
