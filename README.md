@@ -114,47 +114,29 @@ etc.
 
 ### Tablet Wireframes
 
-< details >
-< summary > Click here to see the Tablet Wireframes < / summary >
+<details>
+<summary> Click here to see the Tablet Wireframes </summary>
 
-Home
-  - ![screenshot](documentation/wireframes/tablet-home.png)
+| Page    | Screenshots                                                | Notes             |
+| ------- | ---------------------------------------------------------- | ------------------|
+|Index    | ![screenshot](documentation/wireframe/tablet-index.png)    | Home/Index page   |
+|Play Now | ![screenshot](documentation/wireframe/tablet-playnow.png)  | Tic Tac Toe board |
+|Feedback | ![screenshot](documentation/wireframe/tablet-feedback.png) | Feecback form     |
 
-About
-  - ![screenshot](documentation/wireframes/tablet-about.png)
-
-Contact
-  - ![screenshot](documentation/wireframes/tablet-contact.png)
-
-Gallery
-  - ![screenshot](documentation/wireframes/tablet-gallery.png)
-
-etc.
-  - repeat for any remaining tablet wireframes
-
-< / details >
+</details>
 
 ### Desktop Wireframes
 
-< details >
-< summary > Click here to see the Desktop Wireframes < / summary >
+<details>
+<summary> Click here to see the Desktop Wireframes </summary>
 
-Home
-  - ![screenshot](documentation/wireframes/desktop-home.png)
+| Page    | Screenshots                                                 | Notes             |
+| ------- | ----------------------------------------------------------  | ------------------|
+|Index    | ![screenshot](documentation/wireframe/desktop-index.png)    | Home/Index page   |
+|Play Now | ![screenshot](documentation/wireframe/desktop-playnow.png)  | Tic Tac Toe board |
+|Feedback | ![screenshot](documentation/wireframe/desktop-feedback.png) | Feecback form     |
 
-About
-  - ![screenshot](documentation/wireframes/desktop-about.png)
-
-Contact
-  - ![screenshot](documentation/wireframes/desktop-contact.png)
-
-Gallery
-  - ![screenshot](documentation/wireframes/desktop-gallery.png)
-
-etc.
-  - repeat for any remaining desktop wireframes
-
-< / details >
+</details>
 
 ## Features
 
@@ -193,16 +175,6 @@ IMPORTANT: Remember to always include a screenshot of each individual feature!
 - **Title for feature #3**
 
     - Details about this particular feature, including the value to the site, and benefit for the user. Be as detailed as possible!
-
-![screenshot](documentation/feature03.png)
-
-🛑🛑🛑🛑🛑 START OF NOTES (to be deleted) 🛑🛑🛑🛑🛑
-
-Repeat as necessary for as many features as your site contains.
-
-Hint: the more, the merrier!
-
-🛑🛑🛑🛑🛑 END OF NOTES (to be deleted) 🛑🛑🛑🛑🛑
 
 ### Future Features
 
