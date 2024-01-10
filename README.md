@@ -291,25 +291,25 @@ Use this space to discuss any differences between the local version you've devel
 The Information I obtained from a range of sources assited me in the completion of the project and I am very grateful for the resources and the assitance i received.
 
 ### Content
-
-| [Markdown Builder](https://tim.2bn.dev/markdown-builder) | README and TESTING | Tool to help generate the Markdown files |
-| [Code Institute](https://learn.codeinstitute.net/ci_program/diplomainfullstacksoftwarecommoncurriculum) | entire site | Help with creating my website via modules and example projects|
-| [Favicon](https://favicon.io/) | entire site | Tool to change logo image to a favicon |
-| [Flaticon](hhttps://www.flaticon.com/) | entire site | Free Logo's |
-| [Chris Beams](https://chris.beams.io/posts/git-commit) | version control | "How to Write a Git Commit Message" |
-| [W3Schools](https://www.w3schools.com/howto/howto_js_topnav_responsive.asp) | entire site | responsive HTML/CSS/JS navbar |
-| [W3Schools](https://www.w3schools.com/howto/howto_css_modals.asp) | contact page | interactive pop-up (modal) |
-| [W3schools](https://www.w3schools.com/howto/howto_css_topnav_centered.asp) | How TO - Centered Top Navigation | Tutorial on creating Top navigation bar |
-| [W3Schools](https://www.w3schools.com/css/css3_variables.asp) | entire site | how to use CSS :root variables |
-| [W3Schools](https://www.w3schools.com/howto/howto_css_fixed_footer.asp) | How To Create a Fixed Footer | tutorial on creating fixed footer
-| [Flexbox Froggy](https://flexboxfroggy.com/) | entire site | modern responsive layouts |
-| [Grid Garden](https://cssgridgarden.com) | entire site | modern responsive layouts |
-| [YouTube](https://www.youtube.com/watch?v=al_AgC2NSCo&themeRefresh=1) | Tic Tac Toe Board | Tutorial on creating a Tic Tac Toe Board |
-| [Codingartistweb](https://codingartistweb.com/2022/01/tic-tac-toe-game-html-css-and-javascript/#google_vignette) | Tic Tac Toe Board | Tutorial on creating a Tic Tac Toe Board |
-| [Youtube](https://www.youtube.com/watch?v=n6gzxTsbHLc) | Turn Counter| Tutorial on creating a turn counter |
-| [Youtube](https://www.youtube.com/watch?v=10Z6UIe7R1E) | Website style | Assitance with creating general style of the website |
-| [Exploratorium](https://www.exploratorium.edu) | Tic Tac Toe Rules | Obtain rules for Tic Tac Toe rulkes |
-| [Rheymart Macon-ay](https://www2.codementor.io/@leadmentor9) | Assitance with turn counter | provided assitance with scoreboard to ensure code is working correctly |
+| Source                                                                                                           | Location                         | Notes                                                                  |
+| ---------------------------------------------------------------------------------------------------------------- | -------------------------------- | -----------------------------------------------------------------------|
+| [Markdown Builder](https://tim.2bn.dev/markdown-builder)                                                         | README and TESTING               | Tool to help generate the Markdown files                               |
+| [Code Institute](https://learn.codeinstitute.net/ci_program/diplomainfullstacksoftwarecommoncurriculum)          | Entire site                      | Help with creating my website via modules and example projects         |
+| [Favicon](https://favicon.io/)                                                                                   | Entire site                      | Tool to change logo image to a favicon                                 |
+| [Flaticon](hhttps://www.flaticon.com/)                                                                           | Entire site                      | Logo for favicon                                                       |
+| [Chris Beams](https://chris.beams.io/posts/git-commit)                                                           | version control                  | "How to Write a Git Commit Message"                                    |
+| [W3Schools](https://www.w3schools.com/howto/howto_js_topnav_responsive.asp)                                      | Entire site                      | responsive HTML/CSS/JS navbar                                          |
+| [W3Schools](https://www.w3schools.com/howto/howto_css_modals.asp)                                                | Contact page                     | interactive pop-up (modal)                                             |
+| [W3schools](https://www.w3schools.com/howto/howto_css_topnav_centered.asp)                                       | How TO - Centered Top Navigation | Tutorial on creating Top navigation bar                                |
+| [W3Schools](https://www.w3schools.com/howto/howto_css_fixed_footer.asp)                                          | How To Create a Fixed Footer     | tutorial on creating fixed footer                                      |                             
+| [Flexbox Froggy](https://flexboxfroggy.com/)                                                                     | Entire site                      | modern responsive layouts                                              |
+| [Grid Garden](https://cssgridgarden.com)                                                                         | Entire site                      | modern responsive layouts                                              |
+| [YouTube](https://www.youtube.com/watch?v=al_AgC2NSCo&themeRefresh=1)                                            | Tic Tac Toe Board                | Tutorial on creating a Tic Tac Toe Board                               |
+| [Codingartistweb](https://codingartistweb.com/2022/01/tic-tac-toe-game-html-css-and-javascript/#google_vignette) | Tic Tac Toe Board                | Tutorial on creating a Tic Tac Toe Board                               |
+| [Youtube](https://www.youtube.com/watch?v=n6gzxTsbHLc)                                                           | Turn Counter                     | Tutorial on creating a turn counter                                    |
+| [Youtube](https://www.youtube.com/watch?v=10Z6UIe7R1E)                                                           | Website style                    | Assitance with creating general style of the website                   |
+| [Exploratorium](https://www.exploratorium.edu)                                                                   | Tic Tac Toe Rules                | Obtain rules for Tic Tac Toe rulkes                                    |
+| [Rheymart Macon-ay](https://www2.codementor.io/@leadmentor9)                                                     | Assitance with turn counter      | provided assitance with scoreboard to ensure code is working correctly |
 
 ### Media
 
