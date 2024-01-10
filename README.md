@@ -296,7 +296,7 @@ The Information I obtained from a range of sources assited me in the completion 
 | [Markdown Builder](https://tim.2bn.dev/markdown-builder)                                                         | README and TESTING               | Tool to help generate the Markdown files                               |
 | [Code Institute](https://learn.codeinstitute.net/ci_program/diplomainfullstacksoftwarecommoncurriculum)          | Entire site                      | Help with creating my website via modules and example projects         |
 | [Favicon](https://favicon.io/)                                                                                   | Entire site                      | Tool to change logo image to a favicon                                 |
-| [Flaticon](hhttps://www.flaticon.com/)                                                                           | Entire site                      | Logo for favicon                                                       |
+| [Flaticon](https://www.flaticon.com/free-icons/tic-tac-toe)                                                      | Entire site                      | Logo for favicon created by Freepik                                    |
 | [Chris Beams](https://chris.beams.io/posts/git-commit)                                                           | version control                  | "How to Write a Git Commit Message"                                    |
 | [W3Schools](https://www.w3schools.com/howto/howto_js_topnav_responsive.asp)                                      | Entire site                      | responsive HTML/CSS/JS navbar                                          |
 | [W3Schools](https://www.w3schools.com/howto/howto_css_modals.asp)                                                | Contact page                     | interactive pop-up (modal)                                             |
@@ -313,36 +313,16 @@ The Information I obtained from a range of sources assited me in the completion 
 
 ### Media
 
-🛑🛑🛑🛑🛑 START OF NOTES (to be deleted) 🛑🛑🛑🛑🛑
+I obatianed my Social media Icons from [Font Awesome](https://fontawesome.com):
 
-Use this space to provide attribution links to any images, videos, or audio files borrowed from online.
-A few examples have been provided below to give you some ideas.
+- [Facebook](https://fontawesome.com/icons/facebook?f=brands&s=solid)
+- [Instagram](https://fontawesome.com/icons/instagram?f=brands&s=solid)
+- [Twitter](https://fontawesome.com/icons/twitter?f=brands&s=solid)
+- [Youtube](https://fontawesome.com/icons/square-youtube?f=brands&s=solid)
 
-If you're the owner (or a close acquaintance) of all media files, then make sure to specify this.
-Let the assessors know that you have explicit rights to use the media files within your project.
-
-Ideally, you should provide an actual link to every media file used, not just a generic link to the main site!
-The list below is by no means exhaustive. Within the Code Institute Slack community, you can find more "free media" links
-by sending yourself the following command: `!freemedia`.
-
-🛑🛑🛑🛑🛑 END OF NOTES (to be deleted) 🛑🛑🛑🛑🛑
-
-| Source | Location | Type | Notes |
-| --- | --- | --- | --- |
-| [Pexels](https://www.pexels.com) | entire site | image | favicon on all pages |
-| [Lorem Picsum](https://picsum.photos) | home page | image | hero image background |
-| [Unsplash](https://unsplash.com) | product page | image | sample of fake products |
-| [Pixabay](https://pixabay.com) | gallery page | image | group of photos for gallery |
-| [Wallhere](https://wallhere.com) | footer | image | background wallpaper image in the footer |
-| [This Person Does Not Exist](https://thispersondoesnotexist.com) | testimonials | image | headshots of fake testimonial images |
-| [Audio Micro](https://www.audiomicro.com/free-sound-effects) | game page | audio | free audio files to generate the game sounds |
-| [Videvo](https://www.videvo.net/) | home page | video | background video on the hero section |
-| [TinyPNG](https://tinypng.com) | entire site | image | tool for image compression |
+I also used [Flaticon](https://www.flaticon.com/) to obtain my logo which i then used [Favicon](https://favicon.io/) to create favicons of various sizes.
 
 ### Acknowledgements
-
-🛑🛑🛑🛑🛑 START OF NOTES (to be deleted) 🛑🛑🛑🛑🛑
-
 
 - I would like to thank my Code Institute mentor, [Tim Nelson](https://github.com/TravelTimN) for their support throughout the development of this project.
 - I would like to thank the [Code Institute Slack community](https://code-institute-room.slack.com) for the moral support; it kept me going during periods of self doubt and imposter syndrome.
