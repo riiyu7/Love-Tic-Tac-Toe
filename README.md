@@ -1,18 +1,6 @@
 # [TIC TAC TOE](https://riiyu7.github.io/Tic-Tac-Toe)
 
-🛑🛑🛑🛑🛑 START OF NOTES (to be deleted) 🛑🛑🛑🛑🛑
-
-In this section, you will include a few paragraphs providing an overview of your project.
-Essentially, this part is your "sales pitch".
-
-At this stage, you should have a name for your project so use it!
-Don't introduce the project as a "portfolio project" for the diploma.
-
-In this section, describe what the project hopes to accomplish, who it is intended to target, and how it will be useful to the target audience.
-
-Consider adding a mockup image using the "Am I Responsive" website.
-Here's your deployed site as an example:
-https://ui.dev/amiresponsive?url=https://riiyu7.github.io/Tic-Tac-Toe
+Welcome to 'Love Tic Tac Toe'. Love Tic Tac Toe  is an interactive web-based game of the classic strategy of tic-tac-toe, a fun free game for all ages for the times where you need to sit back, relax and play.
 
 Screenshots for the README and testing should not be inside of `assets/` or `static/` image folders.
 (reminder: `assets/` and `static/` are for files used on the live site, not documentation)
