@@ -42,27 +42,30 @@ Raleway font is included at the beginning of my CSS file using the '@import' met
 
 ## User Stories
 
-🛑🛑🛑🛑🛑 START OF NOTES (to be deleted) 🛑🛑🛑🛑🛑
-
-In this section, list all of your user stories for the project.
-
-🛑🛑🛑🛑🛑 END OF NOTES (to be deleted) 🛑🛑🛑🛑🛑
-
 ### New Site Users
 
-- As a new site user, I would like to ____________, so that I can ____________.
-- As a new site user, I would like to ____________, so that I can ____________.
-- As a new site user, I would like to ____________, so that I can ____________.
-- As a new site user, I would like to ____________, so that I can ____________.
-- As a new site user, I would like to ____________, so that I can ____________.
+My targets for users visiting Love Tic Tac Toe include:
+
+- Providing a fun and relaxed game that could be played with friends or family.
+- Providing a clean yet visually appealing website for users.
+- Accessibility, so users can play Love Tic Tac Toe across different devices. 
+- Ease of use, creating a website which is easy to navigate and a game that is easy to play.
 
 ### Returning Site Users
 
-- As a returning site user, I would like to ____________, so that I can ____________.
-- As a returning site user, I would like to ____________, so that I can ____________.
-- As a returning site user, I would like to ____________, so that I can ____________.
-- As a returning site user, I would like to ____________, so that I can ____________.
-- As a returning site user, I would like to ____________, so that I can ____________.
+My targets for returning users include:
+
+- Collecting user feedback to continuously improve the game and website.
+- Provide a multiplayer function which allows users to play each other from diffrent locations.
+- Include a leaderboard system which provides a competitive factor to the game.
+- Include a reward system which rewards players for continuous plays and wins.
+
+### Expectations
+
+When users visit Love Tic Tac Toe, users can expect:
+
+- A visually appealing design throught the website and the game.
+- Continuous website and game updates, changing styles of the board to keep the look of the game visually appealing and ensuring the look doesnt get dull for users.
 
 ## Wireframes
 
