@@ -203,21 +203,23 @@ Hint: the more, the merrier!
 
 ### Future Features
 
-🛑🛑🛑🛑🛑 START OF NOTES (to be deleted) 🛑🛑🛑🛑🛑
+- Leaderboard
+    - Introduce a leaderboard within the game mechanics which shows the players with the most wins.
 
-Do you have additional ideas that you'd like to include on your project in the future?
-Fantastic! List them here!
-It's always great to have plans for future improvements!
-Consider adding any helpful links or notes to help remind you in the future, if you revisit the project in a couple years.
+- Multiplayer feature
+    - Introduce a multiplayer function where players can challenge others within the leaderboard or friends from different locations.
 
-🛑🛑🛑🛑🛑 END OF NOTES (to be deleted) 🛑🛑🛑🛑🛑
+- Vs Ai
+    - Add a AI player where plays can compete and train their logical skills against an AI.
 
-- Title for future feature #1
-    - Any additional notes about this feature.
-- Title for future feature #2
-    - Any additional notes about this feature.
-- Title for future feature #3
-    - Any additional notes about this feature.
+- Tic Tac Tournament
+    - Add weekly, Monthly and Yearly tournaments where all players can compete for prizes.
+
+- Tic Tac XL
+    - Implement new Tic Tac Toe boards which include bigger grids and 2 v 2 modes.
+
+- Reward system
+    - Introduce a reward system where Top players get rewarded for obtaining wins or winning tournaments
 
 ## Tools & Technologies Used
 
