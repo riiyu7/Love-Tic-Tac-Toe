@@ -77,7 +77,7 @@
     line-height: 85px;
     margin-left: 35%;
  
-    color: #fff;
+    color: #f2f2f2;
   }
 
   .letsplaybtn {
@@ -88,7 +88,7 @@
     outline: 0;
     border-radius: 5px;
     background: #333333;
-    color: #fff;
+    color: #f2f2f2;
     font-weight: 500;
     cursor: pointer;
     text-decoration: none;
@@ -98,7 +98,7 @@
   .content{
     margin-top: 10%;
     margin-left: 5%;
-    color: #fff;
+    color: #f2f2f2;
     text-shadow: 1px 1px #333333;
   }
 
@@ -150,7 +150,7 @@ html {
 
 
 .button-option {
-    background: #ffffff;
+    background: #f2f2f2;
     height: 22vmin;
     width: 22vmin;
     border: none;
@@ -170,7 +170,7 @@ html {
     padding: 1em;
     border-radius: 8px;
     background-color: #333333;
-    color: #ffffff;
+    color: #f2f2f2;
     border: none;
     position: relative;
     margin: 1.5em auto 0 auto;
@@ -194,13 +194,13 @@ html {
 #new-game {
     padding: 0.5em 1em;
     background-color: #333333;
-    color: #ffffff;
+    color: #f2f2f2;
     border-radius: 0.2em;
     border: none;
 }
 
 #message {
-    color: #ffffff;
+    color: #f2f2f2;
     text-align: center;
     font-size: 1em;
 }
@@ -237,11 +237,11 @@ margin: 0;
 text-align: center;
 grid-column-start: 1;
 grid-column-end: 3;
-color: #ffffff;
+color: #f2f2f2;
 }
 
 .turn-container .turn-box{
-border: 3px solid #ffffff;
+border: 3px solid #f2f2f2;
 font-size: 1.6rem;
 font-weight: 700;
 text-align: center;
@@ -257,7 +257,7 @@ bottom: 0;
 left: 0;
 width: 85px;
 height: 40px;
-background-color: #ffffff;;
+background-color: #f2f2f2;;
 z-index: -1;
 }
 
@@ -285,5 +285,5 @@ z-index: -1;
 #social-media i {
   font-size: 100%;
   padding: 5%;
-  color: #ddd;
+  color: #f2f2f2;
 }
