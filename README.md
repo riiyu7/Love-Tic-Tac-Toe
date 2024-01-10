@@ -7,59 +7,19 @@ Welcome to 'Love Tic Tac Toe'. Love Tic Tac Toe  is an interactive web-based gam
 
 ## UX
 
-🛑🛑🛑🛑🛑 START OF NOTES (to be deleted) 🛑🛑🛑🛑🛑
-
-In this section, you will briefly explain your design processes.
-
-🛑🛑🛑🛑🛑 END OF NOTES (to be deleted) 🛑🛑🛑🛑🛑
 
 ### Colour Scheme
 
-🛑🛑🛑🛑🛑 START OF NOTES (to be deleted) 🛑🛑🛑🛑🛑
+I have used [coolors.co](https://coolors.co/8052ec-d161ff-333333-f2f2f2-dddddd) to display and create my colour palette.
 
-Explain your colours and the colour scheme.
+![screenshot](documentation/readme/color-palette.png)
 
-🛑🛑🛑🛑🛑 END OF NOTES (to be deleted) 🛑🛑🛑🛑🛑
+- `#8052ec` used for background gradient one.
+- `#d161ff` used for background gradient one and as the scoreboard buttons.
+- `#333333` used for text shadows and background effects.
+- `#f2f2f2` used for primary texts.
+- `#DDDDDD` used for top-navifation hover.
 
-- `#000000` used for primary text.
-- `#E84610` used for primary highlights.
-- `#4A4A4F` used for secondary text.
-- `#009FE3` used for secondary highlights.
-
-🛑🛑🛑🛑🛑 START OF NOTES (to be deleted) 🛑🛑🛑🛑🛑
-
-Consider adding a link and screenshot for your colour scheme using "coolors".
-https://coolors.co/generate
-
-When you add a colour to the palette, the URL is dynamically updated, making it easier for you to return back to your colour palette later if needed.
-
-Example:
-
-🛑🛑🛑🛑🛑 END OF NOTES (to be deleted) 🛑🛑🛑🛑🛑
-
-I used [coolors.co](https://coolors.co/e84610-009fe3-4a4a4f-445261-d63649-e6ecf0-000000) to generate my colour palette.
-
-![screenshot](documentation/coolors.png)
-
-🛑🛑🛑🛑🛑 START OF NOTES (to be deleted) 🛑🛑🛑🛑🛑
-
-If you've used CSS `:root` variables, consider also including a code snippet here!
-
-🛑🛑🛑🛑🛑 END OF NOTES (to be deleted) 🛑🛑🛑🛑🛑
-
-I've used CSS `:root` variables to easily update the global colour scheme by changing only one value, instead of everywhere in the CSS file.
-
-```css
-:root {
-    /* P = Primary | S = Secondary */
-    --p-text: #000000;
-    --p-highlight: #E84610;
-    --s-text: #4A4A4F;
-    --s-highlight: #009FE3;
-    --white: #FFFFFF;
-    --black: #000000;
-}
-```
 
 ### Typography
 
