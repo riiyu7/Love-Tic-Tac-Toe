@@ -175,17 +175,20 @@ IMPORTANT: Remember to always include a screenshot of each individual feature!
 
 ### Existing Features
 
-- **Title for feature #1**
+- Scoreboard Hover
 
-    - Details about this particular feature, including the value to the site, and benefit for the user. Be as detailed as possible!
+    - I have added a hover feature over the board which displays a purple box on the square which is selected, this is done so players are aware of what position they have the cursor at.
 
-![screenshot](documentation/feature01.png)
 
-- **Title for feature #2**
+![screenshot](documentation/readme/interactive-board.png)
 
-    - Details about this particular feature, including the value to the site, and benefit for the user. Be as detailed as possible!
+- Turn Counter
 
-![screenshot](documentation/feature02.png)
+    - A Turn counter is added to provide a easy visual representation of which players turn it is.
+
+
+![screenshot](documentation/readme/turn-counter.png)
+
 
 - **Title for feature #3**
 
