@@ -76,7 +76,6 @@
     text-shadow: 2px 2px #333333;
     line-height: 85px;
     margin-left: 35%;
- 
     color: #f2f2f2;
   }
 
@@ -95,14 +94,14 @@
     width: fit-content;
   }
 
-  .content{
+  .content .thank-you {
     margin-top: 10%;
     margin-left: 5%;
     color: #f2f2f2;
     text-shadow: 1px 1px #333333;
   }
 
-  .content h1 {
+  .content .thank-you  h1 {
     font-size: 70px;
     font-weight: 600;
     line-height: 85px;
@@ -118,6 +117,30 @@ h1 p {
     text-shadow: 1px 1px #333333;
   }
 
+/** CSS Styles for thank you page */
+
+.thank-you {
+  margin-top: 10%;
+  margin-left: 5%;
+  color: #f2f2f2;
+  text-shadow: 1px 1px #333333;
+}
+
+.thank-you  h1 {
+  font-size: 70px;
+  font-weight: 600;
+  line-height: 85px;
+  margin-bottom: 25px;
+  text-shadow: 2px 2px #333333;
+}
+
+.thank-you  h1 p {
+  font-size: 20px;
+  font-weight: 60;
+  line-height: 30px;
+  margin-bottom: 25px;
+  text-shadow: 1px 1px #333333;
+}
 
 /* CSS styles for Tic Tac Toe board */
 
@@ -147,8 +170,6 @@ html {
     gap: 2vmin;
 }
 
-
-
 .button-option {
     background: #f2f2f2;
     height: 22vmin;
@@ -175,6 +196,7 @@ html {
     position: relative;
     margin: 1.5em auto 0 auto;
     display: block;
+    box-shadow: 0 0 10px #f2f2f2;
 }
 
 .popup {
@@ -208,8 +230,6 @@ html {
 .popup.hide {
     display: none;
 }
-
-/* CSS style for Play Again and win result
 
 
 /* CSS styles for Turn container */
@@ -261,6 +281,87 @@ background-color: #f2f2f2;;
 z-index: -1;
 }
 
+/** CSS Styles for Form */
+
+.contact {
+  margin: 0;
+  padding: 0;
+  font-family: "Raleway", sans-serif;
+}
+
+body .contact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+
+}
+
+.contact h2 {
+  font-size: 20px;
+  text-align: left;
+  max-width: 700px;
+  color: #f2f2f2;
+  margin-bottom: 500px;
+  margin-right: 200px;
+}
+
+.contact form {
+  width: 600px;
+  text-align: center;
+}
+
+form .input-box {
+  display: flex;
+  justify-content: space-between;
+}
+
+.input-box .input-field {
+  width: 48.5%;
+}
+.field .item {
+  width: 100%;
+  padding: 18px;
+  background: #333333;
+  border: 2px solid #f2f2f2;
+  outline: none;
+  border-radius: 6px;
+  font-size: 16px;
+  color: #f2f2f2;
+  margin: 12px 0;
+}
+
+.field .item::placeholder {
+  color: #f2f2f2;
+}
+
+.field .error-txt {
+  font-size: 14.5px;
+  color: #f2f2f2;
+  text-align: left;
+  margin: -5px 0 10px;
+  display: none;
+}
+
+form .textarea-field .item {
+  resize: none;
+}
+
+
+form button {
+  font-size: 1.3em;
+  margin-top: 1.5em;
+  padding: 1em;
+  border-radius: 8px;
+  background-color: #333333;
+  color: #f2f2f2;
+  border: none;
+  position: relative;
+  margin: 1.5em auto 0 auto;
+  display: block;
+  box-shadow: 0 0 10px #f2f2f2;
+  cursor: pointer;
+}
 
 /** CSS styles for Footer */
 
