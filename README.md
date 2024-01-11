@@ -282,7 +282,8 @@ The Information I obtained from a range of sources assited me in the completion 
 | [Youtube](https://www.youtube.com/watch?v=n6gzxTsbHLc)                                                           | Turn Counter                     | Tutorial on creating a turn counter                                    |
 | [Youtube](https://www.youtube.com/watch?v=10Z6UIe7R1E)                                                           | Website style                    | Assitance with creating general style of the website                   |
 | [Exploratorium](https://www.exploratorium.edu)                                                                   | Tic Tac Toe Rules                | Obtain rules for Tic Tac Toe rulkes                                    |
-| [Rheymart Macon-ay](https://www2.codementor.io/@leadmentor9)                                                     | Assitance with turn counter      | Provided assitance with scoreboard to ensure code is working correctly |
+| [Rheymart Macon-ay](https://www2.codementor.io/@leadmentor9)                                                     | Assitance with turn counter      | Provided mentoring with scoreboard to ensure code is working correctly |
+| [Yasir Iqbal](https://www.codementor.io/@yasiriqbal)                                                             | Assitance with media screen      | Provided mentoring with media screens                                  |
 | [Youtube](https://www.youtube.com/watch?v=IxziwuuaS3c)                                                           | Feedback form                    | Tutorial on creating a Form                                            |
 | [Johnny Trinh](https://github.com/JohnnySonTrinh)                                                                | Inspiration                      | Gained insipiration from seeing well created projects                  |
   
