@@ -23,35 +23,11 @@ I have used the recommended [HTML W3C Validator](https://validator.w3.org) to va
 
 I have used the recommended [CSS Jigsaw Validator](https://jigsaw.w3.org/css-validator) to validate all of my CSS files.
 
-🛑🛑🛑🛑🛑 START OF NOTES (to be deleted) 🛑🛑🛑🛑🛑
 
-- If you are copying/pasting your HTML code, use this link: https://jigsaw.w3.org/css-validator/#validate_by_input
-- (*recommended*) If you are using the live deployed site, use this link: https://jigsaw.w3.org/css-validator/#validate_by_uri
+| File      | Jigsaw URL                                                                                               | Screenshot                                             | Notes           |
+| ---       | ---                                                                                                      | ---                                                    | ---             |
+| style.css | [Jigsaw](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Friiyu7.github.io%2FTic-Tac-Toe) | ![screenshot](documentation/test/validator-w3-css.png) | Pass: No Errors |
 
-It's recommended to validate the live site if you only have a single CSS file using the deployed URL.
-This will give you a custom URL as well, which you can use on your testing documentation.
-It makes it easier to return back to the page to validate it again in the future.
-The URL will look something like this:
-
-- https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Friiyu7.github.io%2FTic-Tac-Toe
-
-If you have multiple CSS files, then individual [validation by input](https://jigsaw.w3.org/css-validator/#validate_by_input)
-is recommended for the additional CSS files.
-
-**IMPORTANT**: Third-Party tools
-
-If you're using extras like Bootstrap, Materialize, Font Awesome, then sometimes the validator
-will attempt to also validate this code, even if it's not part of your own actual code.
-You are not required to validate the external libraries or frameworks!
-
-Sample CSS code validation documentation (tables are extremely helpful!):
-
-🛑🛑🛑🛑🛑 END OF NOTES (to be deleted) 🛑🛑🛑🛑🛑
-
-| File | Jigsaw URL | Screenshot | Notes |
-| --- | --- | --- | --- |
-| style.css | [Jigsaw](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Friiyu7.github.io%2FTic-Tac-Toe) | ![screenshot](documentation/css-validation-style.png) | Pass: No Errors |
-| x | x | x | repeat for all remaining CSS files |
 
 ### JavaScript
 
@@ -64,8 +40,6 @@ I have used the recommended [JShint Validator](https://jshint.com) to validate a
 
 ## Browser Compatibility
 
-🛑🛑🛑🛑🛑 START OF NOTES (to be deleted) 🛑🛑🛑🛑🛑
-
 I have used different browsers to check any browser compatibility issues.
 
 The browsers which I used were:
@@ -74,8 +48,6 @@ The browsers which I used were:
 - [Edge](https://www.microsoft.com/edge)
 - [Brave](https://brave.com/download)
 
-
-🛑🛑🛑🛑🛑 END OF NOTES (to be deleted) 🛑🛑🛑🛑🛑
 
 I've tested my deployed project on multiple browsers to check for compatibility issues.
 
@@ -87,26 +59,6 @@ I've tested my deployed project on multiple browsers to check for compatibility 
 
 ## Responsiveness
 
-🛑🛑🛑🛑🛑 START OF NOTES (to be deleted) 🛑🛑🛑🛑🛑
-
-Use this space to discuss testing the live/deployed site on various device sizes.
-
-The minimum requirement is for the following 3 tests:
-- Mobile
-- Tablet
-- Desktop
-
-**IMPORTANT**: You must provide screenshots of the tested responsiveness, to "prove" that you've actually tested them.
-
-Using the "amiresponsive" mockup image (or similar) does not suffice the requirements.
-Consider using some of the built-in device sizes in the Developer Tools.
-
-If you have tested the project on your actual mobile phone or tablet, consider also including screenshots of these as well.
-It showcases a higher level of manual tests, and can be seen as a positive inclusion!
-
-Sample responsiveness testing documentation:
-
-🛑🛑🛑🛑🛑 END OF NOTES (to be deleted) 🛑🛑🛑🛑🛑
 
 I've tested my deployed project on multiple devices to check for responsiveness issues.
 
@@ -123,17 +75,14 @@ I've tested my deployed project on multiple devices to check for responsiveness 
 
 ## Lighthouse Audit
 
-🛑🛑🛑🛑🛑 START OF NOTES (to be deleted) 🛑🛑🛑🛑🛑
-
 I've tested my deployed project using the Lighthouse Audit tool to check for any major issues.
 
-| Page      | Mobile                                                     | Desktop                                                      | Notes               |
-| ---       | ---                                                        | ---                                                          | ---                 | 
-| Home      | ![screenshot](documentation/lighthouse-home-mobile.png)    | ![screenshot](documentation/lighthouse-home-desktop.png)     | Some minor warnings |
-| Play      | ![screenshot](documentation/lighthouse-about-mobile.png)   | ![screenshot](documentation/lighthouse-about-desktop.png)    | Some minor warnings |
-| Feedback  | ![screenshot](documentation/lighthouse-gallery-mobile.png) | ![screenshot](documentation/lighthouse-gallery-desktop.png)  | Slow response time due to large images |
-| Thank you | ![screenshot](documentation/lighthouse-gallery-mobile.png) | ![screenshot](documentation/lighthouse-gallery-desktop.png)  | Slow response time due to large images |
-| x | x | x | repeat for any other tested pages/sizes |
+| Page      | Mobile                                                             | Desktop                                                             | Notes                |
+| ---       | ---                                                                | ---                                                                 | ---                  | 
+| Home      | ![screenshot](documentation/test/llighthouse-mobile-index.png)     | ![screenshot](documentation/test/llighthouse-desktop-index.png)     | Some minor warnings  |
+| Play      | ![screenshot](documentation/test/llighthouse-mobile-play.png)      | ![screenshot](documentation/test/llighthouse-desktop-play.png)      | Some minor warnings  |
+| Feedback  | ![screenshot](documentation/test/llighthouse-mobile-feedback.png)  | ![screenshot](documentation/test/llighthouse-desktop-feedback.png)  | Some minor warnings  |
+| Thank you | ![screenshot](documentation/test/llighthouse-mobile-thankyou.pngg) | ![screenshot](documentation/test/llighthouse-desktop-thankyou.png)  | Some minor warnings  |
 
 ## Defensive Programming
 
