@@ -45,7 +45,7 @@ const enableButtons = () => {
   //disable popup
   //popupRef.classList.add("hide");
   msgRef.innerHTML = "";
-  restartBtn.textContent = "Restart"
+  restartBtn.textContent = "Restart";
 };
 
 //This function is executed when a player wins
@@ -100,15 +100,15 @@ btnRef.forEach((element) => {
   element.addEventListener("click", () => {
     if (xTurn) {
       xTurn = false;
-      turnXRef.classList.remove("on")
-      turnORef.classList.add("on")
+      turnXRef.classList.remove("on");
+      turnORef.classList.add("on");
       //Display X
       element.innerText = "X";
       element.disabled = true;
     } else {
       xTurn = true;
-      turnXRef.classList.add("on")
-      turnORef.classList.remove("on")
+      turnXRef.classList.add("on");
+      turnORef.classList.remove("on");
 
       //Display Y
       element.innerText = "O";
