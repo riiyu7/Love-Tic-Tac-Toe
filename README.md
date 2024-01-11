@@ -71,46 +71,21 @@ When users visit Love Tic Tac Toe, users can expect:
 
 🛑🛑🛑🛑🛑 START OF NOTES (to be deleted) 🛑🛑🛑🛑🛑
 
-In this section, display your wireframe screenshots using a Markdown `table`.
-Instructions on how to do Markdown `tables` start on line #213 on this site: https://pandao.github.io/editor.md/en.html
-
-Alternatively, dropdowns are a way to condense several wireframes into a collapsible menu to save space.
-Dropdowns in Markdown are considered some of the only acceptable HTML components that are allowed for assessment purposes.
-
-**IMPORTANT**! **IMPORTANT**! **IMPORTANT**!
-The example below uses the `details` and `summary` code elements.
-However, for these scripts to work, I've had to add spaces within the `< >` elements.
-
-You MUST remove these spaces for it to work properly on your own README/TESTING files.
-Remove the spaces within the `< >` brackets for the `details` and `summary` code elements,
-for the Mobile, Tablet, and Desktop wireframes.
-
-🛑🛑🛑🛑🛑 END OF NOTES (to be deleted) 🛑🛑🛑🛑🛑
-
-To follow best practice, wireframes were developed for mobile, tablet, and desktop sizes.
 I've used [Balsamiq](https://balsamiq.com/wireframes) to design my site wireframes.
 
 ### Mobile Wireframes
 
-< details >
-< summary > Click here to see the Mobile Wireframes < / summary >
+<details>
+<summary> Click here to see the Mobile Wireframes </summary>
 
-Home
-  - ![screenshot](documentation/wireframes/mobile-home.png)
+| Page    | Screenshots                                                | Notes             |
+| ------- | ---------------------------------------------------------- | ------------------|
+|Index    | ![screenshot](documentation/wireframe/mobile-index.png)    | Home/Index page   |
+|Play Now | ![screenshot](documentation/wireframe/mobile-play.png)     | Tic Tac Toe board |
+|Feedback | ![screenshot](documentation/wireframe/mobile-feedback.png) | Feecback form     |
+|Thank You| ![screenshot](documentation/wireframe/mobile-thankyou.png) | Thank you message |
 
-About
-  - ![screenshot](documentation/wireframes/mobile-about.png)
-
-Contact
-  - ![screenshot](documentation/wireframes/mobile-contact.png)
-
-Gallery
-  - ![screenshot](documentation/wireframes/mobile-gallery.png)
-
-etc.
-  - repeat for any remaining mobile wireframes
-
-< / details >
+</details>
 
 ### Tablet Wireframes
 
@@ -122,6 +97,7 @@ etc.
 |Index    | ![screenshot](documentation/wireframe/tablet-index.png)    | Home/Index page   |
 |Play Now | ![screenshot](documentation/wireframe/tablet-playnow.png)  | Tic Tac Toe board |
 |Feedback | ![screenshot](documentation/wireframe/tablet-feedback.png) | Feecback form     |
+|Thank You| ![screenshot](documentation/wireframe/tablet-thankyou.png) | Thank you message |
 
 </details>
 
@@ -130,11 +106,12 @@ etc.
 <details>
 <summary> Click here to see the Desktop Wireframes </summary>
 
-| Page    | Screenshots                                                 | Notes             |
-| ------- | ----------------------------------------------------------  | ------------------|
-|Index    | ![screenshot](documentation/wireframe/desktop-index.png)    | Home/Index page   |
-|Play Now | ![screenshot](documentation/wireframe/desktop-playnow.png)  | Tic Tac Toe board |
-|Feedback | ![screenshot](documentation/wireframe/desktop-feedback.png) | Feecback form     |
+| Page    | Screenshots                                                   | Notes             |
+| ------- | ----------------------------------------------------------    | ------------------|
+|Index    | ![screenshot](documentation/wireframe/desktop-index.png)      | Home/Index page   |
+|Play Now | ![screenshot](documentation/wireframe/desktop-playnow.png)    | Tic Tac Toe board |
+|Feedback | ![screenshot](documentation/wireframe/desktop-feedback.png)   | Feecback form     |
+|Thank You| ![screenshot](documentation/wireframe/desktop-thankyou_2.png) | Thank you message |
 
 </details>
 
