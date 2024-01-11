@@ -94,14 +94,14 @@
     width: fit-content;
   }
 
-  .content .thank-you {
+  .content {
     margin-top: 10%;
     margin-left: 5%;
     color: #f2f2f2;
     text-shadow: 1px 1px #333333;
   }
 
-  .content .thank-you  h1 {
+  .content h1 {
     font-size: 70px;
     font-weight: 600;
     line-height: 85px;
