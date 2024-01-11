@@ -259,7 +259,7 @@ position: relative;
 }
 
 .message-container{
-  background: 'red';
+  background: red;
   width: 170px;
   height: 180px;
   margin-left: 10%;
