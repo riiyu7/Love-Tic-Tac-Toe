@@ -399,7 +399,7 @@ form button {
 
 /* Responsive navigation menu (for mobile devices) */
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1667px) {
 
   .turn-container {
     margin-top: 1%;
