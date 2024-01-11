@@ -12,7 +12,7 @@
 body {
   margin: 0;
   font-family: 'Raleway', sans-serif;
-  padding-bottom: 40px;
+  /* padding-bottom: 40px; */
 }
 
 .topnav {
@@ -137,6 +137,7 @@ h1 p {
   background-color: #333333;
   color: white;
   text-align: center;
+  margin: auto;
 }
 
 /* CSS styles for Tic Tac Toe board */
@@ -465,11 +466,11 @@ form button {
 }
 
 @media screen and (max-width: 768px) {
-
+/*
   body {
     padding-bottom: 30px;
   }
-
+*/
   .welcome {
     font-size: 20px;
   }
@@ -534,11 +535,11 @@ form button {
 }
 
 @media screen and (max-width: 480px) {
-
+/*
   body {
     padding-bottom: 50px;
   }
-
+*/
   .topnav a, .topnav-right {
     float: none;
     display: block;
@@ -610,7 +611,7 @@ form button {
   .contact form {
     width: 80%;
     margin: 0 auto;
-    padding-right: 30px;
+
   }
 
   .contact .input-field, .contact .textarea-field {
@@ -640,8 +641,9 @@ form button {
     background-color: #333333;
     color: white;
     text-align: center;
+    padding-top: 50px;
     padding: 15px 0;
-    margin-bottom: -50px;
+    margin-bottom: auto
   }
 
 }
