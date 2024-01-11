@@ -260,7 +260,6 @@ html {
 }
 
 .message-container {
-  color: 'red';
   width: 170px;
   height: 180px;
   margin-left: 10%;
@@ -411,13 +410,13 @@ form button {
   position: relative;
 }
 
-@media screen and (max-width: 1700px) and (min-width: 769px) {
+@media screen and (max-width: 1300px) and (min-width: 769px) {
 
   .wrapper {
     position: absolute;
     left: 50%;
     margin-top: 50px;
-    transform: translateX(-50%, -50%);
+    transform: translate(-50%, -50%);
   }
 
 .turn-container {
@@ -483,7 +482,7 @@ form button {
   .content p {
     font-size: 1.5rem;
     line-height: 2rem;
-    text-shadow: #333333;
+    text-shadow: 0 0 #333333;
     margin-right: 5%;
   }
 
@@ -570,7 +569,7 @@ form button {
   .content p {
     font-size: 1.5rem;
     line-height: 2rem;
-    text-shadow: #333333;
+    text-shadow: 0 0 #333333;
     margin-right: 5%;
   }
 
