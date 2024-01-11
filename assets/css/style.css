@@ -235,10 +235,17 @@ html {
 /* CSS styles for Turn container */
 
 .align {
-display: flex;
-justify-content: center;
-align-items: center;
-text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.on {
+  background: white;
+}
+.off {
+  background: none;
 }
 
 .turn-container{
@@ -251,6 +258,16 @@ grid-template-columns: 1fr 1fr;
 grid-template-rows: 1fr 1fr;
 position: relative;
 }
+
+.message-container{
+  background: 'red';
+  width: 170px;
+  height: 180px;
+  margin-left: 10%;
+  margin-top: 10%;
+  display: grid;
+  position: relative;
+  }
 
 .turn-container h3{
 margin: 0;
