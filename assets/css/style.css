@@ -12,6 +12,7 @@
 body {
   margin: 0;
   font-family: 'Raleway', sans-serif;
+  padding-bottom: 40px;
 }
 
 .topnav {
@@ -57,11 +58,10 @@ body {
 /** Content CSS styles */
 
 .welcome {
+  text-align: center;
+  margin: 0;;
+  padding: 20px;
   font-size: 20px;
-  font-weight: 600;
-  text-shadow: 2px 2px #333333;
-  line-height: 85px;
-  margin-left: 35%;
   color: #f2f2f2;
 }
 
@@ -143,9 +143,11 @@ html {
 
 .wrapper {
   position: absolute;
-  transform: translate(-50%, -50%);
-  top: 50%;
   left: 50%;
+  top: 40%;
+  bottom: 50px;
+  transform: translate(-50%, -50%);
+ 
 }
 
 .container {
@@ -246,6 +248,7 @@ html {
 }
 
 .message-container {
+  color: 'red';
   width: 170px;
   height: 180px;
   margin-left: 10%;
@@ -294,9 +297,9 @@ html {
 
 body .contact {
   display: flex;
-  flex-direction: row;
-  gap: 2em;
-  justify-content: space-evenly;
+  /* flex-direction: row; */
+  /* gap: 2em; */
+  justify-content: center; /* changed to center */
   align-items: center;
   min-height: 100vh;
 
@@ -306,10 +309,12 @@ body .contact {
   font-size: 20px;
   text-align: left;
   color: #f2f2f2;
+  margin-bottom: 500px; /* addded */
+  margin-right: 200px; /* addded */
 }
 
 .contact form {
-  /* width: 35vw; */
+  width: 600px;   /* disabled previously but changed to 600px */
   text-align: center;
 }
 
@@ -318,6 +323,10 @@ form .input-box {
   justify-content: space-between;
 }
 
+/* possibly delete 
+.input-box .input-field {
+  width: 48.5%;
+} */
 
 .field .item {
   width: 100%;
@@ -385,15 +394,102 @@ form button {
 
 #social-media i {
   font-size: 100%;
-  padding: 5%;
   color: #f2f2f2;
 }
 
 /* Responsive navigation menu (for mobile devices) */
-@media screen and (max-width: 600px) {
 
-  .topnav a,
-  .topnav-right {
+@media screen and (max-width: 1024px) {
+
+  .turn-container {
+    margin-top: 1%;
+    margin-left: 42%;
+  }
+
+  .message-container {
+    margin-top: 85%;
+    margin-left: 42%;
+  }
+
+  .contact {
+    flex-direction: column;
+    min-height: auto;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    padding: 20px 0;
+    margin-bottom: 40px;
+  }
+
+  .contact h2 {
+    margin-bottom: 20px;
+    text-align: center;
+    padding-left: 20%;
+  }
+
+  .contact form {
+    width: 80%;
+    margin: 0 auto;
+
+  }
+
+  .footer {
+    position: fixed;
+    width: 100%;
+    height: auto;
+    background-color: #333333;
+    color: #ddd;
+    text-align: center;
+    padding: 15px;
+    bottom: 0;
+
+  }
+
+}
+
+@media screen and (max-width: 768px) {
+
+  body {
+    padding-bottom: 30px;
+  }
+
+  .welcome {
+    font-size: 20px;
+  }
+
+  .content {
+    margin-left: 5%;
+    font-size: 16px;
+  }
+
+  .content p {
+    font-size: 1.5rem;
+    line-height: 2rem;
+    text-shadow: #333333;
+  }
+
+  .wrapper {
+    top: 45%
+  }
+
+  .turn-container {
+    margin-top: 2%;
+    margin-left: 40%;
+  }
+
+  .message-container {
+    margin-top: 98%;
+    margin-left: 40%;
+  }
+}
+
+@media screen and (max-width: 480px) {
+
+  body {
+    padding-bottom: 50px;
+  }
+
+  .topnav a, .topnav-right {
     float: none;
     display: block;
   }
@@ -404,11 +500,104 @@ form button {
     left: 0;
     transform: none;
   }
+
+  .welcome {
+    font-size: 14px;
+    margin-left: 5%;
+  }
+
+  .content {
+    margin-left: 3%;
+    font-size: 14px;
+    margin-bottom: 40px;
+  }
+
+  .content h1 {
+    font-size: 2.5rem;
+  }
+
+  .content p {
+    font-size: 1.5rem;
+    line-height: 2rem;
+    text-shadow: #333333;
+  }
+
+  .wrapper {
+    top: 62%;
+  }
+
+  .turn-container {
+    margin-top: 2%;
+    margin-left: 28%;
+  }
+
+  .message-container {
+    margin-top: 125%;
+    margin-left: 25%;
+  }
+
+  .contact {
+    flex-direction: column;
+    min-height: auto;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    padding: 20px 0;
+    margin-bottom: 20px;
+  }
+
+
+  .contact h2 {
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 16px;
+    padding: 0;
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .contact form {
+    width: 80%;
+    margin: 0 auto;
+    padding-right: 30px;
+  }
+
+  .contact .input-field .contact .textarea-field {
+    margin: 10px;
+    width: calc(100% - 20%);
+  }
+
+  .contact .input-field .contact .textarea-field {
+    width: 100%;
+    margin: 5px 0;
+  }
+
+  .contact button {
+    margin: 10px auto;
+    display: block;
+    width: 50%;
+  }
+
+  .contact .error-txt {
+    margin: 5px 0;
+  }
+
+  .footer {
+    position: relative;
+    width: 100%;
+    height: auto;
+    background: #333333;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    margin-bottom: -50px;
+  }
+
 }
 
-/* Responsive navigation menu (for tablet devices) */
+/* Responsive navigation menu (for tablet devices) 
 @media screen and (max-width: 1000px) {
   body .contact {
     flex-direction: column;
   }
-}
+} */
