@@ -2,120 +2,106 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;600&display=swap');
 
 * body {
-    height: 100vh;
-    background: linear-gradient(135deg, #8052ec, #d161ff);
-    font-family: 'Raleway', sans-serif;
-  }
+  min-height: 100vh;
+  background: linear-gradient(135deg, #8052ec, #d161ff);
+  font-family: 'Raleway', sans-serif;
+}
 
-  /* CSS styles for navigation */
+/* CSS styles for navigation */
 
-  body {
-    margin: 0;
-    font-family: 'Raleway', sans-serif;
-  }
-  
-  .topnav {
-    position: relative;
-    overflow: hidden;
-    background-color: #333333;
-  }
-  
-  .topnav a {
-    float: left;
-    color: #f2f2f2;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 17px;
-  }
-  
-  .topnav a:hover {
-    background-color: #ddd;
-    color: black;
-  }
-  
-  .topnav a.active {
-    background-color: #333333;
-    color: white;
-  }
-  
-  .topnav-centered a {
-    float: none;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    font-size: 30px;
-  }
-  
-  .topnav-right {
-    float: right;
-  }
-  
-  /* Responsive navigation menu (for mobile devices) */
-  @media screen and (max-width: 600px) {
-    .topnav a, .topnav-right {
-      float: none;
-      display: block;
-    }
-    
-    .topnav-centered a {
-      position: relative;
-      top: 0;
-      left: 0;
-      transform: none;
-    }
-  }
+body {
+  margin: 0;
+  font-family: 'Raleway', sans-serif;
+}
+
+.topnav {
+  position: relative;
+  overflow: hidden;
+  background-color: #333333;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #333333;
+  color: white;
+}
+
+.topnav-centered a {
+  float: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 30px;
+}
+
+.topnav-right {
+  float: right;
+}
 
 
-  /** Content CSS styles */
 
-  .welcome {
-    font-size: 20px;
-    font-weight: 600;
-    text-shadow: 2px 2px #333333;
-    line-height: 85px;
-    margin-left: 35%;
-    color: #f2f2f2;
-  }
+/** Content CSS styles */
 
-  .letsplaybtn {
-    display: flex;
-    align-items: center;
-    padding: 10px 20px;
-    border: 0;
-    outline: 0;
-    border-radius: 5px;
-    background: #333333;
-    color: #f2f2f2;
-    font-weight: 500;
-    cursor: pointer;
-    text-decoration: none;
-    width: fit-content;
-  }
+.welcome {
+  font-size: 20px;
+  font-weight: 600;
+  text-shadow: 2px 2px #333333;
+  line-height: 85px;
+  margin-left: 35%;
+  color: #f2f2f2;
+}
 
-  .content {
-    margin-top: 10%;
-    margin-left: 5%;
-    color: #f2f2f2;
-    text-shadow: 1px 1px #333333;
-  }
+.letsplaybtn {
+  display: flex;
+  align-items: center;
+  padding: 10px 20px;
+  border: 0;
+  outline: 0;
+  border-radius: 5px;
+  background: #333333;
+  color: #f2f2f2;
+  font-weight: 500;
+  cursor: pointer;
+  text-decoration: none;
+  width: fit-content;
+}
 
-  .content h1 {
-    font-size: 70px;
-    font-weight: 600;
-    line-height: 85px;
-    margin-bottom: 25px;
-    text-shadow: 2px 2px #333333;
-  }
+.content {
+  margin-top: 10%;
+  margin-left: 5%;
+  color: #f2f2f2;
+  text-shadow: 1px 1px #333333;
+}
+
+.content h1 {
+  font-size: 70px;
+  font-weight: 600;
+  line-height: 85px;
+  margin-bottom: 25px;
+  text-shadow: 2px 2px #333333;
+}
 
 h1 p {
-    font-size: 20px;
-    font-weight: 60;
-    line-height: 30px;
-    margin-bottom: 25px;
-    text-shadow: 1px 1px #333333;
-  }
+  font-size: 20px;
+  font-weight: 60;
+  line-height: 30px;
+  margin-bottom: 25px;
+  text-shadow: 1px 1px #333333;
+}
 
 /** CSS Styles for thank you page */
 
@@ -126,7 +112,7 @@ h1 p {
   text-shadow: 1px 1px #333333;
 }
 
-.thank-you  h1 {
+.thank-you h1 {
   font-size: 70px;
   font-weight: 600;
   line-height: 85px;
@@ -134,7 +120,7 @@ h1 p {
   text-shadow: 2px 2px #333333;
 }
 
-.thank-you  h1 p {
+.thank-you h1 p {
   font-size: 20px;
   font-weight: 60;
   line-height: 30px;
@@ -145,90 +131,90 @@ h1 p {
 /* CSS styles for Tic Tac Toe board */
 
 .play {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    font-family: Raleway, sans-serif;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Raleway, sans-serif;
 }
 
 html {
-    font-size: 16px;
+  font-size: 16px;
 }
 
 .wrapper {
-    position: absolute;
-    transform: translate(-50%, -50%);
-    top: 50%;
-    left: 50%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
 }
 
 .container {
-    width: 70vmin;
-    height: 70vmin;
-    display: flex;
-    flex-wrap: wrap;
-    gap: 2vmin;
+  width: 70vmin;
+  height: 70vmin;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2vmin;
 }
 
 .button-option {
-    background: #f2f2f2;
-    height: 22vmin;
-    width: 22vmin;
-    border: none;
-    border-radius: 8px;
-    font-size: 12vmin;
-    color: #d161ff;
-    box-shadow: 0 0 15px rgba(0, 0, 0, 1);
+  background: #f2f2f2;
+  height: 22vmin;
+  width: 22vmin;
+  border: none;
+  border-radius: 8px;
+  font-size: 12vmin;
+  color: #d161ff;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 1);
 }
 
-.button-option:hover {
+.button-option:not(:disabled):hover {
   background-color: #d161ff;
 }
 
 #restart {
-    font-size: 1.3em;
-    margin-top: 1.5em;
-    padding: 1em;
-    border-radius: 8px;
-    background-color: #333333;
-    color: #f2f2f2;
-    border: none;
-    position: relative;
-    margin: 1.5em auto 0 auto;
-    display: block;
-    box-shadow: 0 0 10px #f2f2f2;
+  font-size: 1.3em;
+  margin-top: 1.5em;
+  padding: 1em;
+  border-radius: 8px;
+  background-color: #333333;
+  color: #f2f2f2;
+  border: none;
+  position: relative;
+  margin: 1.5em auto 0 auto;
+  display: block;
+  box-shadow: 0 0 10px #f2f2f2;
 }
 
 .popup {
-    background: linear-gradient(135deg, #8052ec, #d161ff);
-    height: 94%;
-    width: 90%;
-    position: absolute;
-    display: flex;
-    z-index: 2;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    gap: 1em;
-    font-size: 12vmin;
+  background: linear-gradient(135deg, #8052ec, #d161ff);
+  height: 94%;
+  width: 90%;
+  position: absolute;
+  display: flex;
+  z-index: 2;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 1em;
+  font-size: 12vmin;
 }
 
 #new-game {
-    padding: 0.5em 1em;
-    background-color: #333333;
-    color: #f2f2f2;
-    border-radius: 0.2em;
-    border: none;
+  padding: 0.5em 1em;
+  background-color: #333333;
+  color: #f2f2f2;
+  border-radius: 0.2em;
+  border: none;
 }
 
 #message {
-    color: #f2f2f2;
-    text-align: center;
-    font-size: 1em;
+  color: #f2f2f2;
+  text-align: center;
+  font-size: 1em;
 }
 
 .popup.hide {
-    display: none;
+  display: none;
 }
 
 /* CSS styles for Turn container */
@@ -243,57 +229,59 @@ html {
 .on {
   background: white;
 }
+
 .off {
   background: none;
 }
 
-.turn-container{
-width: 170px;
-height: 80px;
-margin-left: 10%;
-margin-top: 10%;
-display: grid;
-grid-template-columns: 1fr 1fr;
-grid-template-rows: 1fr 1fr;
-position: relative;
+.turn-container {
+  width: 170px;
+  height: 80px;
+  margin-left: 10%;
+  margin-top: 10%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  position: relative;
 }
 
-.message-container{
+.message-container {
   width: 170px;
   height: 180px;
   margin-left: 10%;
   margin-top: 10%;
   display: grid;
   position: relative;
-  }
-
-.turn-container h3{
-margin: 0;
-text-align: center;
-grid-column-start: 1;
-grid-column-end: 3;
-color: #f2f2f2;
 }
 
-.turn-container .turn-box{
-border: 3px solid #f2f2f2;
-font-size: 1.6rem;
-font-weight: 700;
-text-align: center;
+.turn-container h3 {
+  margin: 0;
+  text-align: center;
+  grid-column-start: 1;
+  grid-column-end: 3;
+  color: #f2f2f2;
 }
 
-.turn-container .turn-box:nth-child(even){
-border-right: none;
+.turn-container .turn-box {
+  border: 3px solid #f2f2f2;
+  font-size: 1.6rem;
+  font-weight: 700;
+  text-align: center;
 }
 
-.bg{
-position: absolute;
-bottom: 0;
-left: 0;
-width: 85px;
-height: 40px;
-background-color: #f2f2f2;;
-z-index: -1;
+.turn-container .turn-box:nth-child(even) {
+  border-right: none;
+}
+
+.bg {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 85px;
+  height: 40px;
+  background-color: #f2f2f2;
+
+  z-index: -1;
 }
 
 /** CSS Styles for Form */
@@ -306,7 +294,9 @@ z-index: -1;
 
 body .contact {
   display: flex;
-  justify-content: center;
+  flex-direction: row;
+  gap: 2em;
+  justify-content: space-evenly;
   align-items: center;
   min-height: 100vh;
 
@@ -315,14 +305,11 @@ body .contact {
 .contact h2 {
   font-size: 20px;
   text-align: left;
-  max-width: 700px;
   color: #f2f2f2;
-  margin-bottom: 500px;
-  margin-right: 200px;
 }
 
 .contact form {
-  width: 600px;
+  /* width: 35vw; */
   text-align: center;
 }
 
@@ -331,9 +318,7 @@ form .input-box {
   justify-content: space-between;
 }
 
-.input-box .input-field {
-  width: 48.5%;
-}
+
 .field .item {
   width: 100%;
   padding: 18px;
@@ -402,4 +387,28 @@ form button {
   font-size: 100%;
   padding: 5%;
   color: #f2f2f2;
+}
+
+/* Responsive navigation menu (for mobile devices) */
+@media screen and (max-width: 600px) {
+
+  .topnav a,
+  .topnav-right {
+    float: none;
+    display: block;
+  }
+
+  .topnav-centered a {
+    position: relative;
+    top: 0;
+    left: 0;
+    transform: none;
+  }
+}
+
+/* Responsive navigation menu (for tablet devices) */
+@media screen and (max-width: 1000px) {
+  body .contact {
+    flex-direction: column;
+  }
 }
