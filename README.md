@@ -284,7 +284,8 @@ The Information I obtained from a range of sources assited me in the completion 
 | [Exploratorium](https://www.exploratorium.edu)                                                                   | Tic Tac Toe Rules                | Obtain rules for Tic Tac Toe rulkes                                    |
 | [Rheymart Macon-ay](https://www2.codementor.io/@leadmentor9)                                                     | Assitance with turn counter      | Provided assitance with scoreboard to ensure code is working correctly |
 | [Youtube](https://www.youtube.com/watch?v=IxziwuuaS3c)                                                           | Feedback form                    | Tutorial on creating a Form                                            |
-
+| [Johnny Trinh](https://github.com/JohnnySonTrinh)                                                                | Inspiration                      | Gained insipiration from seeing well created projects                  |                                                                |
+  
 ### Media
 
 I obatianed my Social media Icons from [Font Awesome](https://fontawesome.com):
