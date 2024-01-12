@@ -51,11 +51,11 @@ The browsers which I used were:
 
 I've tested my deployed project on multiple browsers to check for compatibility issues.
 
-| Browser | Home                                                    | Play                                                   | Feedback        | Thank You                                                  | Notes             |
-| ---     | ---                                                     | ---                                                    | ---             | ---                                                        | ---               |
-| Chrome  | ![screenshot](documentation/test/chrome-index-page.png) | ![screenshot](documentation/test/chrome-play-page.png) | ![screenshot]() | ![screenshot](documentation/test/chrome-thankyou-page.png) | Works as expected |
-| Edge    | ![screenshot](documentation/test/edge-index-page.png)   | ![screenshot](documentation/test/edge-play-page.png)   | ![screenshot]() | ![screenshot](documentation/test/edge-thankyou-page.png)   | Works as expected |
-| Brave   | ![screenshot](documentation/test/brave-index-page.png)  | ![screenshot](documentation/test/brave-play-page.png)  | ![screenshot]() | ![screenshot](documentation/test/brave-feedback-page.png)  | Works as expected |
+| Browser | Home                                                    | Play                                                   | Feedback                                                   | Thank You                                                  | Notes             |
+| ---     | ---                                                     | ---                                                    | ---                                                        | ---                                                        | ---               |
+| Chrome  | ![screenshot](documentation/test/chrome-index-page.png) | ![screenshot](documentation/test/chrome-play-page.png) | ![screenshot](documentation/test/chrome-feedback-page.png) | ![screenshot](documentation/test/chrome-thankyou-page.png) | Works as expected |
+| Edge    | ![screenshot](documentation/test/edge-index-page.png)   | ![screenshot](documentation/test/edge-play-page.png)   | ![screenshot](documentation/test/edge-feedback-page.png)   | ![screenshot](documentation/test/edge-thankyou-page.png)   | Works as expected |
+| Brave   | ![screenshot](documentation/test/brave-index-page.png)  | ![screenshot](documentation/test/brave-play-page.png)  | ![screenshot](documentation/test/brave-feedback1-page.png) | ![screenshot](documentation/test/brave-feedback-page.png)  | Works as expected |
 
 ## Responsiveness
 
