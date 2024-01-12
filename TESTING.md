@@ -155,7 +155,7 @@ Defensive programming was manually tested with the below user acceptance testing
 
 - Redirect Timer on thankyou.html went below 10seconds and would not redirect
 
-    ![screenshot](documentation/test/bug-1-script.js-feedback.png)
+    ![screenshot](documentation/test/thankyou-bug1.png)
 
     - To fix this, I added a meta tag ' http-equiv="refresh" content="10;url=index.html ' on line 6 which resolved the issue.
 
