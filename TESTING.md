@@ -1,6 +1,6 @@
 # Testing
 
-Welcome, in this file I will discuss in this file the testing I have completed to ensure that all elements are tested and are responsive across diffrent devices.
+Welcome to TESTING.md. I will discuss in this file the testing I have completed to ensure that all elements are tested and are responsive across different devices.
 
 Return back to the [README.md](README.md) file.
 
@@ -42,7 +42,7 @@ I have used the recommended [JShint Validator](https://jshint.com) to validate a
 
 I have used different browsers to check any browser compatibility issues.
 
-The browsers which I used were:
+The browsers that I used were:
 
 - [Chrome](https://www.google.com/)
 - [Edge](https://www.microsoft.com/edge)
@@ -84,87 +84,45 @@ I've tested my deployed project using the Lighthouse Audit tool to check for any
 
 ## Defensive Programming
 
-🛑🛑🛑🛑🛑 START OF NOTES (to be deleted) 🛑🛑🛑🛑🛑
-
-Defensive programming (defensive design) is extremely important!
-
-When building projects that accept user inputs or forms, you should always test the level of security for each.
-Examples of this could include (not limited to):
-
-Forms:
-- Users cannot submit an empty form
-- Users must enter valid email addresses
-
-You'll want to test all functionality on your application, whether it's a standard form,
-or uses CRUD functionality for data manipulation on a database.
-Make sure to include the `required` attribute on any form-fields that should be mandatory.
-Try to access various pages on your site as different user types (User-A, User-B, guest user, admin, superuser).
-
-You should include any manual tests performed, and the expected results/outcome.
-
-Testing should be replicable.
-Ideally, tests cases should focus on each individual section of every page on the website.
-Each test case should be specific, objective, and step-wise replicable.
-
-Instead of adding a general overview saying that everything works fine,
-consider documenting tests on each element of the page
-(ie. button clicks, input box validation, navigation links, etc.) by testing them in their happy flow,
-and also the bad/exception flow, mentioning the expected and observed results,
-and drawing a parallel between them where applicable.
-
-Consider using the following format for manual test cases:
-
-Expected Outcome / Test Performed / Result Received / Fixes Implemented
-
-- **Expected**: "Feature is expected to do X when the user does Y."
-- **Testing**: "Tested the feature by doing Y."
-- (either) **Result**: "The feature behaved as expected, and it did Y."
-- (or) **Result**: "The feature did not respond to A, B, or C."
-- **Fix**: "I did Z to the code because something was missing."
-
-Use the table below as a basic start, and expand on it using the logic above.
-
-🛑🛑🛑🛑🛑 END OF NOTES (to be deleted) 🛑🛑🛑🛑🛑
-
 Defensive programming was manually tested with the below user acceptance testing:
 
 | Page   | Expectation | Test | Result | Fix | Screenshot |
 | ---    | --- | --- | --- | --- | --- |
 | Home   | | | | | |
-|        | Love Tic Tac Toe Header is expected to redirect to index.html when the user clicks on heading. | Tested the feature by clicking 'Love Tic Tac Toe' in header. | The feature behaved as expected, and it redirects to index.html. | Test concluded and passed. | ![screenshot](documentation/test/dp-index-1.png) |
-|        | Play Now feature is expected to redirect to play.html when the user clicks the button. | Tested the feature by clicking 'Play Now' button. | The feature behaved as expected, and it redirects to play.html. | Test concluded and passed | ![screenshot](documentation/test/dp-index-2.png) |
+|        | Love Tic Tac Toe Header is expected to redirect to index.html when the user clicks on heading. | Tested the feature by clicking 'Love Tic Tac Toe' in the header. | The feature behaved as expected, and it redirects to index.html. | Test concluded and passed. | ![screenshot](documentation/test/dp-index-1.png) |
+|        | Play Now feature is expected to redirect to play.html when the user clicks the button. | Tested the feature by clicking the 'Play Now' button. | The feature behaved as expected, and it redirects to play.html. | Test concluded and passed | ![screenshot](documentation/test/dp-index-2.png) |
 | Play   | | | | | |
-|        | Restart button is expected to restart board when clicked. | Tested the feature by click 'Restart'. | The feature behaved as expected, and it restarted the board. | Test concluded and passed. | ![screenshot](documentation/test/dp-play2.png) |
-|        | Turn Counter is expected to change after every turn when the user clicks a box on the grid. | Tested the feature by clicking grid, and the turn counter changed accordingly. | The feature behaved as expected, and it restarted the board. | Test concluded and passed. | ![screenshot](documentation/test/dp-play-1.png) |
+|        | Restart button is expected to restart the board when clicked. | Tested the feature by clicking 'Restart'. | The feature behaved as expected, and it restarted the board. | Test concluded and passed. | ![screenshot](documentation/test/dp-play2.png) |
+|        | Turn Counter is expected to change after every turn when the user clicks a box on the grid. | Tested the feature by clicking the grid, and the turn counter changed accordingly. | The feature behaved as expected, and it restarted the board. | Test concluded and passed. | ![screenshot](documentation/test/dp-play-1.png) |
 | Feedback | | | | | |
-|        | Name field is expected to show error message when left empty. | Tested the feature by leaving field blank and clicking 'Submit'. | The feature behaved as expected, and displayed error message. | Test concluded and passed. | ![screenshot](documentation/test/dp-feedback-1.png) |
-|        | Email Name field is expected to show error message when left empty. | Tested the feature by leaving field blank and clicking submit.  | The feature behaved as expected, and displayed error message. | Test concluded and passed. | ![screenshot](documentation/test/dp-feedback-2.png) |
+|        | Name field is expected to show error message when left empty. | Tested the feature by leaving field blank and clicking 'Submit'. | The feature behaved as expected, and displayed a error message. | Test concluded and passed. | ![screenshot](documentation/test/dp-feedback-1.png) |
+|        | Email Name field is expected to show error message when left empty. | Tested the feature by leaving field blank and clicking submit.  | The feature behaved as expected, and displayed an error message. | Test concluded and passed. | ![screenshot](documentation/test/dp-feedback-2.png) |
 |        | Submit button redirects to thankyou.html. | Tested the feature by adding information to fields and clicking submit. | The feature behaved as expected, and it redirects to thankyou.html  | Test concluded and passed. | ![screenshot](documentation/test/dp-feedback-3.png) |
 | Thank You | | | | | |
 |        | Countdown timer countsdown to 10 before redirecting user to index.html. | Tested the feature by waiting 10 seconds. | The feature behaved as expected, and it redirected to index.html. | Test concluded and passed. | ![screenshot](documentation/test/dp-Thankyou-1.png) |
 |        | Play Now feature is expected to redirect to play.html when the user clicks the button. | Tested the feature by clicking 'Play Now' button. | The feature behaved as expected, and it redirects to play.html. | Test concluded and passed.  | ![screenshot](documentation/test/dp-Thankyou-2.png) |
 | All Pages | Responsive Nav bar should redirect users to relevant paes | Tested the feature by clicking through all pages on all HTML pages | The feature behaved as expected, and it redirects to relevant pages | Test concluded and passed.  | ![screenshot](documentation/test/dp-nav-1.png) |
-|           | social media icons should redirect users to relevant social media links | Tested the feature by clicking through all social media icons and reviewing code to ensure it opens in a new tab | The feature didnt open a new tab when clicked  | Fixed issue by adding target="_blank" to anchor link, and when clicked new tab opens. | ![screenshot](documentation/test/dp-socialmedia-1.png) |
+|           | social media icons should redirect users to relevant social media links | Tested the feature by clicking through all social media icons and reviewing code to ensure it opens in a new tab | The feature didin't open a new tab when clicked  | Fixed issue by adding target="_blank" to anchor link, and when clicked, a new tab opens. | ![screenshot](documentation/test/dp-socialmedia-1.png) |
 
 
 ## Bugs
 
-- JS Uncaught TypeError: Cannot read properties of null script.js:71 (reading 'addEventListener')
+- JS Uncaught TypeError: Cannot read properties of null script.js:71 (reading 'addEventListener').
 
     ![screenshot](documentation/test/bug-1-script.js-feedback.png)
 
-    - To fix this, I removed line 94 from my feedback.html page as I had no JS within that page it caused the above bug.
+    - To fix this, I removed line 94 from my feedback.html page, as I had no JS within that page, it caused the above bug.
 
-- Redirect Timer on thankyou.html went below 10seconds and would not redirect
+- Redirect Timer on thankyou.html went below 10 seconds and would not redirect.
 
     ![screenshot](documentation/test/thankyou-bug1.png)
 
-    - To fix this, I added a meta tag ' http-equiv="refresh" content="10;url=index.html ' on line 6 which resolved the issue.
+    - To fix this, I added a meta tag ' http-equiv="refresh" content="10;url=index.html ' on line 6, which resolved the issue.
 
 
 ## Unfixed Bugs
 
-I started the project using the desktop view and towards the end of the project I added media queries which resulted in inconsistent CSS on my play.HTML page, the following bugs were found:
+I started the project using the desktop view, and towards the end of the project, I added media queries, which resulted in inconsistent CSS on my play.HTML page, the following bugs were found:
 
 - Bug with Turn counter position
 
@@ -177,8 +135,8 @@ I started the project using the desktop view and towards the end of the project 
 
     ![screenshot](documentation/test/bug-2-media-queries.png)
 
-    - Attempted fix: I tried to add additional media queries to handle the position of the message and I experienced a similar problem as above.
+    - Attempted fix: I tried to add additional media queries to handle the position of the message, and I experienced a similar problem as above.
 
 
-    - Future resolution: I will attempt to create the same game but using root variables as well creating the website from lower dimensions to higher to ensure the elements like this are consitent across all devices
+    - Future resolution: I will attempt to create the same game but using root variables as well, creating the website from lower dimensions to higher dimensions to ensure the elements like this are consistent across all devices.
 
