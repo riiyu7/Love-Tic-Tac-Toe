@@ -134,8 +134,8 @@ Defensive programming was manually tested with the below user acceptance testing
 |        | Love Tic Tac Toe Header is expected to do redirect to index.html when the user clicks on heading | Tested the feature by clicking 'Love Tic Tac Toe' in Nav | The feature behaved as expected, and it redirects to index.html| Test concluded and passed | ![screenshot](documentation/test/dp-index-1.png) |
 |        | Play Now feature is expected to redirect to play.html when the user clicks the button            | Tested the feature by clicking 'Play Now' button| The feature behaved as expected, and it redirects to play.html | Test concluded and passed | ![screenshot](documentation/test/dp-index-2.png) |
 | Play   | | | | | |
-|        | Restart button is expected to change when clicked | Tested the feature by click 'Restart' | The feature behaved as expected, and it restarted the board | Test concluded and passed | ![screenshot](documentation/feature03.png) |
-|        | Turn Counter is expected to change after every turn when the user clicks a box on the grid | Tested the feature by clicking grid, and the turn counter changed accordingly |  Test concluded and passed | ![screenshot](documentation/test/dp-play-1.png) |
+|        | Restart button is expected to change when clicked | Tested the feature by click 'Restart' | The feature behaved as expected, and it restarted the board | Test concluded and passed | ![screenshot](documentation/test/dp-play2.png) |
+|        | Turn Counter is expected to change after every turn when the user clicks a box on the grid | Tested the feature by clicking grid, and the turn counter changed accordingly | The feature behaved as expected, and it restarted the board | Test concluded and passed | ![screenshot](documentation/test/dp-play-1.png) |
 |        | 
 | Feedback | | | | | |
 |        | Name is expected to do X when the user does Y | Tested the feature by doing Y | The feature behaved as expected, and it did Y | Test concluded and passed | ![screenshot](documentation/test/dp-play2.png) |
