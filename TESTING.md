@@ -62,16 +62,14 @@ I've tested my deployed project on multiple browsers to check for compatibility 
 
 I've tested my deployed project on multiple devices to check for responsiveness issues.
 
-| Device | Home | About | Contact | etc | Notes |
-| --- | --- | --- | --- | --- | --- |
-| Mobile (DevTools) | ![screenshot](documentation/responsive-mobile-home.png) | ![screenshot](documentation/responsive-mobile-about.png) | ![screenshot](documentation/responsive-mobile-contact.png) | ![screenshot](documentation/responsive-mobile-etc.png) | Works as expected |
-| Tablet (DevTools) | ![screenshot](documentation/responsive-tablet-home.png) | ![screenshot](documentation/responsive-tablet-about.png) | ![screenshot](documentation/responsive-tablet-contact.png) | ![screenshot](documentation/responsive-tablet-etc.png) | Works as expected |
-| Desktop | ![screenshot](documentation/responsive-desktop-home.png) | ![screenshot](documentation/responsive-desktop-about.png) | ![screenshot](documentation/responsive-desktop-contact.png) | ![screenshot](documentation/responsive-desktop-etc.png) | Works as expected |
-| XL Monitor | ![screenshot](documentation/responsive-xl-home.png) | ![screenshot](documentation/responsive-xl-about.png) | ![screenshot](documentation/responsive-xl-contact.png) | ![screenshot](documentation/responsive-xl-etc.png) | Scaling starts to have minor issues |
-| 4K Monitor | ![screenshot](documentation/responsive-4k-home.png) | ![screenshot](documentation/responsive-4k-about.png) | ![screenshot](documentation/responsive-4k-contact.png) | ![screenshot](documentation/responsive-4k-etc.png) | Noticeable scaling issues |
-| Google Pixel 7 Pro | ![screenshot](documentation/responsive-pixel-home.png) | ![screenshot](documentation/responsive-pixel-about.png) | ![screenshot](documentation/responsive-pixel-contact.png) | ![screenshot](documentation/responsive-pixel-etc.png) | Works as expected |
-| iPhone 14 | ![screenshot](documentation/responsive-iphone-home.png) | ![screenshot](documentation/responsive-iphone-about.png) | ![screenshot](documentation/responsive-iphone-contact.png) | ![screenshot](documentation/responsive-iphone-etc.png) | Works as expected |
-| repeat for any other tested browsers | x | x | x | x | x |
+| Device            | Home                                             | Play                                            | Feedback                                             | Thank You                                            | Notes                |
+| ---               | ---                                              | ---                                             | ---                                                  | ---                                                  | ---                  |
+| Mobile (DevTools) | ![screenshot](documentation/test/dv-m-index.png) | ![screenshot](documentation/test/dv-m-play.png) | ![screenshot](documentation/test/dv-m-feedback.pngg) | ![screenshot](documentation/test/dv-m-thankyou.png)  | Works as expected    |
+| Tablet (DevTools) | ![screenshot](documentation/test/dv-t-index.png) | ![screenshot](documentation/test/dv-t-play.png) | ![screenshot](documentation/test/dv-t-feedback.png)  | ![screenshot](documentation/test/dv-t-thankyou.png)  | Works as expected    |
+| Desktop           | ![screenshot](documentation/test/dt-index.png)   | ![screenshot](documentation/test/dt-play.png)   | ![screenshot](documentation/test/dt-feedback.png)    | ![screenshot](documentation/test/dt-thankyou.png)    | Works as expected    |
+| Samsung s23 Ultra | ![screenshot](documentation/test/m-index.jpg)    | ![screenshot](documentation/test/m-play.jpg)    |  ![screenshot](documentation/test/m-feedback.jpg)    | ![screenshot](documentation/test/m-thankyou.jpg)     | Works as expected    |
+
+
 
 ## Lighthouse Audit
 
@@ -209,11 +207,6 @@ The aforementioned tests are just an example of a few different project scenario
 🛑🛑🛑🛑🛑 END OF NOTES (to be deleted) 🛑🛑🛑🛑🛑
 
 ## Bugs
-
-🛑🛑🛑🛑🛑 START OF NOTES (to be deleted) 🛑🛑🛑🛑🛑
-
-
-🛑🛑🛑🛑🛑 END OF NOTES (to be deleted) 🛑🛑🛑🛑🛑
 
 - JS Uncaught TypeError: Cannot read properties of null script.js:71 (reading 'addEventListener')
     ![screenshot](documentation/test/bug-1-script.js-feedback.png)
