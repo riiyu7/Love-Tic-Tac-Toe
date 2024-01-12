@@ -212,45 +212,20 @@ The aforementioned tests are just an example of a few different project scenario
 
 🛑🛑🛑🛑🛑 START OF NOTES (to be deleted) 🛑🛑🛑🛑🛑
 
-This section is primarily used for JavaScript and Python applications,
-but feel free to use this section to document any HTML/CSS bugs you might run into.
-
-It's very important to document any bugs you've discovered while developing the project.
-Make sure to include any necessary steps you've implemented to fix the bug(s) as well.
-
-**PRO TIP**: screenshots of bugs are extremely helpful, and go a long way!
 
 🛑🛑🛑🛑🛑 END OF NOTES (to be deleted) 🛑🛑🛑🛑🛑
 
-- JS Uncaught ReferenceError: `foobar` is undefined/not defined
+- JS Uncaught TypeError: Cannot read properties of null script.js:71 (reading 'addEventListener')
+    ![screenshot](documentation/test/bug-1-script.js-feedback.png)
 
-    ![screenshot](documentation/bug01.png)
+    - To fix this, I removed line 94 from my feedback.html page as I had no JS within that page it caused the above bug.
 
-    - To fix this, I _____________________.
+- Redirect Timer on thankyou.html went below 10seconds and would not redirect
 
-- JS `'let'` or `'const'` or `'template literal syntax'` or `'arrow function syntax (=>)'` is available in ES6 (use `'esversion: 11'`) or Mozilla JS extensions (use moz).
+    ![screenshot](documentation/test/bug-1-script.js-feedback.png)
 
-    ![screenshot](documentation/bug02.png)
+    - To fix this, I added a meta tag ' http-equiv="refresh" content="10;url=index.html ' on line 6 which resolved the issue.
 
-    - To fix this, I _____________________.
-
-- Python `'ModuleNotFoundError'` when trying to import module from imported package
-
-    ![screenshot](documentation/bug03.png)
-
-    - To fix this, I _____________________.
-
-- Django `TemplateDoesNotExist` at /appname/path appname/template_name.html
-
-    ![screenshot](documentation/bug04.png)
-
-    - To fix this, I _____________________.
-
-- Python `E501 line too long` (93 > 79 characters)
-
-    ![screenshot](documentation/bug04.png)
-
-    - To fix this, I _____________________.
 
 ## Unfixed Bugs
 
@@ -265,7 +240,7 @@ I started the project using the desktop view and towards the end of the project 
 
     - Bug with Win message position
 
-    ![screenshot](documentation/test/bug-2-media-queries.png)
+    ![screenshot](documentation/test/thankyou-bug1.png)
 
     - Attempted fix: I tried to add additional media queries to handle the position of the message and I experienced a similar problem as above.
 
