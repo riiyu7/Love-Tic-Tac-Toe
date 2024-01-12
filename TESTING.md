@@ -131,22 +131,20 @@ Defensive programming was manually tested with the below user acceptance testing
 | Page   | Expectation | Test | Result | Fix | Screenshot |
 | ---    | --- | --- | --- | --- | --- |
 | Home   | | | | | |
-|        | Love Tic Tac Toe Header is expected to do redirect to index.html when the user clicks on heading. | Tested the feature by clicking 'Love Tic Tac Toe' in header. | The feature behaved as expected, and it redirects to index.html. | Test concluded and passed. | ![screenshot](documentation/test/dp-index-1.png) |
-|        | Play Now feature is expected to redirect to play.html when the user clicks the button | Tested the feature by clicking 'Play Now' button| The feature behaved as expected, and it redirects to play.html | Test concluded and passed | ![screenshot](documentation/test/dp-index-2.png) |
+|        | Love Tic Tac Toe Header is expected to redirect to index.html when the user clicks on heading. | Tested the feature by clicking 'Love Tic Tac Toe' in header. | The feature behaved as expected, and it redirects to index.html. | Test concluded and passed. | ![screenshot](documentation/test/dp-index-1.png) |
+|        | Play Now feature is expected to redirect to play.html when the user clicks the button. | Tested the feature by clicking 'Play Now' button. | The feature behaved as expected, and it redirects to play.html. | Test concluded and passed | ![screenshot](documentation/test/dp-index-2.png) |
 | Play   | | | | | |
 |        | Restart button is expected to restart board when clicked. | Tested the feature by click 'Restart'. | The feature behaved as expected, and it restarted the board. | Test concluded and passed. | ![screenshot](documentation/test/dp-play2.png) |
 |        | Turn Counter is expected to change after every turn when the user clicks a box on the grid. | Tested the feature by clicking grid, and the turn counter changed accordingly. | The feature behaved as expected, and it restarted the board. | Test concluded and passed. | ![screenshot](documentation/test/dp-play-1.png) |
 | Feedback | | | | | |
-|        | Name field is expected to show error message when left empty. | Tested the feature by leaving field bank and clicking 'Submit'. | The feature behaved as expected, and displayed error message. | Test concluded and passed. | ![screenshot](documentation/test/dp-feedback-1.png) |
-|        | Email Name field is expected to show error message when left empty. | Tested the feature by leaving field bank and clicking submit.  | The feature behaved as expected, and displayed error message. | Test concluded and passed. | ![screenshot](documentation/test/dp-feedback-2.png) |
+|        | Name field is expected to show error message when left empty. | Tested the feature by leaving field blank and clicking 'Submit'. | The feature behaved as expected, and displayed error message. | Test concluded and passed. | ![screenshot](documentation/test/dp-feedback-1.png) |
+|        | Email Name field is expected to show error message when left empty. | Tested the feature by leaving field blank and clicking submit.  | The feature behaved as expected, and displayed error message. | Test concluded and passed. | ![screenshot](documentation/test/dp-feedback-2.png) |
 |        | Submit button redirects to thankyou.html. | Tested the feature by adding information to fields and clicking submit. | The feature behaved as expected, and it redirects to thankyou.html  | Test concluded and passed. | ![screenshot](documentation/test/dp-feedback-3.png) |
 | Thank You | | | | | |
 |        | Countdown timer countsdown to 10 before redirecting user to index.html. | Tested the feature by waiting 10 seconds. | The feature behaved as expected, and it redirected to index.html. | Test concluded and passed. | ![screenshot](documentation/test/dp-Thankyou-1.png) |
 |        | Play Now feature is expected to redirect to play.html when the user clicks the button. | Tested the feature by clicking 'Play Now' button. | The feature behaved as expected, and it redirects to play.html. | Test concluded and passed.  | ![screenshot](documentation/test/dp-Thankyou-2.png) |
-| All Pages | Nav Bar
-|           | Social media
-
-
+| All Pages | Responsive Nav bar should redirect users to relevant paes | Tested the feature by clicking through all pages on all HTML pages | The feature behaved as expected, and it redirects to relevant pages | Test concluded and passed.  | ![screenshot](documentation/test/dp-nav-1.png) |
+|           | social media icons should redirect users to relevant social media links | Tested the feature by clicking through all social media icons and reviewing code to ensure it opens in a new tab | The feature didnt open a new tab when clicked  | Fixed issue by adding target="_blank" to anchor link, and when clicked new tab opens. | ![screenshot](documentation/test/dp-socialmedia-1.png) |
 
 
 ## Bugs
