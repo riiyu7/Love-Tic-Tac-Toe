@@ -131,15 +131,15 @@ Defensive programming was manually tested with the below user acceptance testing
 | Page   | Expectation | Test | Result | Fix | Screenshot |
 | ---    | --- | --- | --- | --- | --- |
 | Home   | | | | | |
-|        | Love Tic Tac Toe Header is expected to do redirect to index.html when the user clicks on heading | Tested the feature by clicking 'Love Tic Tac Toe' in Nav | The feature behaved as expected, and it redirects to index.html| Test concluded and passed | ![screenshot](documentation/test/dp-index-1.png) |
-|        | Play Now feature is expected to redirect to play.html when the user clicks the button            | Tested the feature by clicking 'Play Now' button| The feature behaved as expected, and it redirects to play.html | Test concluded and passed | ![screenshot](documentation/test/dp-index-2.png) |
+|        | Love Tic Tac Toe Header is expected to do redirect to index.html when the user clicks on heading. | Tested the feature by clicking 'Love Tic Tac Toe' in header. | The feature behaved as expected, and it redirects to index.html. | Test concluded and passed. | ![screenshot](documentation/test/dp-index-1.png) |
+|        | Play Now feature is expected to redirect to play.html when the user clicks the button | Tested the feature by clicking 'Play Now' button| The feature behaved as expected, and it redirects to play.html | Test concluded and passed | ![screenshot](documentation/test/dp-index-2.png) |
 | Play   | | | | | |
-|        | Restart button is expected to change when clicked | Tested the feature by click 'Restart' | The feature behaved as expected, and it restarted the board | Test concluded and passed | ![screenshot](documentation/test/dp-play2.png) |
-|        | Turn Counter is expected to change after every turn when the user clicks a box on the grid | Tested the feature by clicking grid, and the turn counter changed accordingly | The feature behaved as expected, and it restarted the board | Test concluded and passed | ![screenshot](documentation/test/dp-play-1.png) |
-|        | 
+|        | Restart button is expected to restart board when clicked. | Tested the feature by click 'Restart'. | The feature behaved as expected, and it restarted the board. | Test concluded and passed. | ![screenshot](documentation/test/dp-play2.png) |
+|        | Turn Counter is expected to change after every turn when the user clicks a box on the grid. | Tested the feature by clicking grid, and the turn counter changed accordingly. | The feature behaved as expected, and it restarted the board. | Test concluded and passed. | ![screenshot](documentation/test/dp-play-1.png) |
 | Feedback | | | | | |
-|        | Name is expected to do X when the user does Y | Tested the feature by doing Y | The feature behaved as expected, and it did Y | Test concluded and passed | ![screenshot](documentation/test/dp-play2.png) |
-|        | Email is expected to do X when the user does Y | Tested the feature by doing Y | The feature did not respond to A, B, or C. | I did Z to the code because something was missing | ![screenshot](documentation/feature06.png) |
+|        | Name field is expected to show error message when left empty. | Tested the feature by leaving field bank and clicking 'Submit'. | The feature behaved as expected, and displayed error message. | Test concluded and passed. | ![screenshot](documentation/test/dp-feedback-1.png) |
+|        | Email Name field is expected to show error message when left empty. | Tested the feature by leaving field bank and clicking submit.  | The feature behaved as expected, and displayed error message. | Test concluded and passed. | ![screenshot](documentation/test/dp-feedback-2.png) |
+|        | Submit button redirects to thankyou.html | Tested the feature by adding information to fields and clicking submit | The feature did not respond to A, B, or C. | I did Z to the code because something was missing | ![screenshot](documentation/test/dp-feedback-3.png) |
 | Thank You| | | | | |
 |        | Feature is expected to do X when the user does Y | Tested the feature by doing Y | The feature behaved as expected, and it did Y | Test concluded and passed | ![screenshot](documentation/feature07.png) |
 |        | Feature is expected to do X when the user does Y | Tested the feature by doing Y | The feature did not respond to A, B, or C. | I did Z to the code because something was missing | ![screenshot](documentation/feature08.png) |
