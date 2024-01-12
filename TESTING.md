@@ -131,9 +131,9 @@ Defensive programming was manually tested with the below user acceptance testing
 | Page   | Expectation | Test | Result | Fix | Screenshot |
 | ---    | --- | --- | --- | --- | --- |
 | Home   | | | | | |
-|        | Feature is expected to do X when the user does Y | Tested the feature by doing Y | The feature behaved as expected, and it did Y | Test concluded and passed | ![screenshot](documentation/feature01.png) |
-|        | Feature is expected to do X when the user does Y | Tested the feature by doing Y | The feature did not respond to A, B, or C. | I did Z to the code because something was missing | ![screenshot](documentation/feature02.png) |
-| About  | | | | | |
+|        | Love Tic Tac Toe Header is expected to do redirect to index.html when the user clicks on heading | Tested the feature by doing Y | The feature behaved as expected, and it did Y | Test concluded and passed | ![screenshot](documentation/feature01.png) |
+|        | Play Now feature is expected to redirect to play.html when the user clicks the button            | Tested the feature by doing Y | The feature did not respond to A, B, or C. | I did Z to the code because something was missing | ![screenshot](documentation/feature02.png) |
+| Play   | | | | | |
 |        | Feature is expected to do X when the user does Y | Tested the feature by doing Y | The feature behaved as expected, and it did Y | Test concluded and passed | ![screenshot](documentation/feature03.png) |
 |        | Feature is expected to do X when the user does Y | Tested the feature by doing Y | The feature did not respond to A, B, or C. | I did Z to the code because something was missing | ![screenshot](documentation/feature04.png) |
 | Gallery| | | | | |
