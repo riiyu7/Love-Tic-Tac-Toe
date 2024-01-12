@@ -82,7 +82,7 @@ I've tested my deployed project using the Lighthouse Audit tool to check for any
 | Home      | ![screenshot](documentation/test/llighthouse-mobile-index.png)     | ![screenshot](documentation/test/llighthouse-desktop-index.png)     | Some minor warnings  |
 | Play      | ![screenshot](documentation/test/llighthouse-mobile-play.png)      | ![screenshot](documentation/test/llighthouse-desktop-play.png)      | Some minor warnings  |
 | Feedback  | ![screenshot](documentation/test/llighthouse-mobile-feedback.png)  | ![screenshot](documentation/test/llighthouse-desktop-feedback.png)  | Some minor warnings  |
-| Thank you | ![screenshot](documentation/test/llighthouse-mobile-thankyou.pngg) | ![screenshot](documentation/test/llighthouse-desktop-thankyou.png)  | Some minor warnings  |
+| Thank you | ![screenshot](documentation/test/llighthouse-mobile-thankyou.png)  | ![screenshot](documentation/test/llighthouse-desktop-thankyou.png)  | Some minor warnings  |
 
 ## Defensive Programming
 
@@ -258,14 +258,14 @@ I started the project using the desktop view and towards the end of the project 
 
 - Bug with Turn counter position
 
-    ![screenshot](documentation/unfixed-bug01.png)
+    ![screenshot](documentation/test/bug-media-queries.png)
 
     - Attempted fix: I tried to add additional media queries to handle the position of the turn counter, but as I changed the CSS, the position kept varying with different devices.
 
 
     - Bug with Win message position
 
-    ![screenshot](documentation/unfixed-bug01.png)
+    ![screenshot](documentation/test/bug-2-media-queries.png)
 
     - Attempted fix: I tried to add additional media queries to handle the position of the message and I experienced a similar problem as above.
 
