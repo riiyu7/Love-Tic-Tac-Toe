@@ -64,10 +64,10 @@ I've tested my deployed project on multiple devices to check for responsiveness 
 
 | Device            | Home                                             | Play                                            | Feedback                                             | Thank You                                            | Notes                |
 | ---               | ---                                              | ---                                             | ---                                                  | ---                                                  | ---                  |
-| Mobile (DevTools) | ![screenshot](documentation/test/dv-m-index.png) | ![screenshot](documentation/test/dv-m-play.png) | ![screenshot](documentation/test/dv-m-feedback.pngg) | ![screenshot](documentation/test/dv-m-thankyou.png)  | Works as expected    |
+| Mobile (DevTools) | ![screenshot](documentation/test/dv-m-index.png) | ![screenshot](documentation/test/dv-m-play.png) | ![screenshot](documentation/test/dv-m-feedback.png)  | ![screenshot](documentation/test/dv-m-thankyou.png)  | Works as expected    |
 | Tablet (DevTools) | ![screenshot](documentation/test/dv-t-index.png) | ![screenshot](documentation/test/dv-t-play.png) | ![screenshot](documentation/test/dv-t-feedback.png)  | ![screenshot](documentation/test/dv-t-thankyou.png)  | Works as expected    |
 | Desktop           | ![screenshot](documentation/test/dt-index.png)   | ![screenshot](documentation/test/dt-play.png)   | ![screenshot](documentation/test/dt-feedback.png)    | ![screenshot](documentation/test/dt-thankyou.png)    | Works as expected    |
-| Samsung s23 Ultra | ![screenshot](documentation/test/m-index.jpg)    | ![screenshot](documentation/test/m-play.jpg)    |  ![screenshot](documentation/test/m-feedback.jpg)    | ![screenshot](documentation/test/m-thankyou.jpg)     | Works as expected    |
+| Samsung s23 Ultra | ![screenshot](documentation/test/m-index.jpg)    | ![screenshot](documentation/test/m-play.jpg)    | ![screenshot](documentation/test/m-feedback.jpg)     | ![screenshot](documentation/test/m-thankyou.jpg)     | Works as expected    |
 
 
 
@@ -94,17 +94,6 @@ Examples of this could include (not limited to):
 Forms:
 - Users cannot submit an empty form
 - Users must enter valid email addresses
-
-PP3 (Python-only):
-- Users must enter a valid letter/word/string when prompted
-- Users must choose from a specific list only
-
-MS3 (Flask) | MS4/PP4/PP5 (Django):
-- Users cannot brute-force a URL to navigate to a restricted page
-- Users cannot perform CRUD functionality while logged-out
-- User-A should not be able to manipulate data belonging to User-B, or vice versa
-- Non-Authenticated users should not be able to access pages that require authentication
-- Standard users should not be able to access pages intended for superusers
 
 You'll want to test all functionality on your application, whether it's a standard form,
 or uses CRUD functionality for data manipulation on a database.
@@ -139,72 +128,23 @@ Use the table below as a basic start, and expand on it using the logic above.
 
 Defensive programming was manually tested with the below user acceptance testing:
 
-| Page | Expectation | Test | Result | Fix | Screenshot |
-| --- | --- | --- | --- | --- | --- |
-| Home | | | | | |
-| | Feature is expected to do X when the user does Y | Tested the feature by doing Y | The feature behaved as expected, and it did Y | Test concluded and passed | ![screenshot](documentation/feature01.png) |
-| | Feature is expected to do X when the user does Y | Tested the feature by doing Y | The feature did not respond to A, B, or C. | I did Z to the code because something was missing | ![screenshot](documentation/feature02.png) |
-| About | | | | | |
-| | Feature is expected to do X when the user does Y | Tested the feature by doing Y | The feature behaved as expected, and it did Y | Test concluded and passed | ![screenshot](documentation/feature03.png) |
-| | Feature is expected to do X when the user does Y | Tested the feature by doing Y | The feature did not respond to A, B, or C. | I did Z to the code because something was missing | ![screenshot](documentation/feature04.png) |
-| Gallery | | | | | |
-| | Feature is expected to do X when the user does Y | Tested the feature by doing Y | The feature behaved as expected, and it did Y | Test concluded and passed | ![screenshot](documentation/feature05.png) |
-| | Feature is expected to do X when the user does Y | Tested the feature by doing Y | The feature did not respond to A, B, or C. | I did Z to the code because something was missing | ![screenshot](documentation/feature06.png) |
-| Contact | | | | | |
-| | Feature is expected to do X when the user does Y | Tested the feature by doing Y | The feature behaved as expected, and it did Y | Test concluded and passed | ![screenshot](documentation/feature07.png) |
-| | Feature is expected to do X when the user does Y | Tested the feature by doing Y | The feature did not respond to A, B, or C. | I did Z to the code because something was missing | ![screenshot](documentation/feature08.png) |
-| repeat for all remaining pages | x | x | x | x | x |
+| Page   | Expectation | Test | Result | Fix | Screenshot |
+| ---    | --- | --- | --- | --- | --- |
+| Home   | | | | | |
+|        | Feature is expected to do X when the user does Y | Tested the feature by doing Y | The feature behaved as expected, and it did Y | Test concluded and passed | ![screenshot](documentation/feature01.png) |
+|        | Feature is expected to do X when the user does Y | Tested the feature by doing Y | The feature did not respond to A, B, or C. | I did Z to the code because something was missing | ![screenshot](documentation/feature02.png) |
+| About  | | | | | |
+|        | Feature is expected to do X when the user does Y | Tested the feature by doing Y | The feature behaved as expected, and it did Y | Test concluded and passed | ![screenshot](documentation/feature03.png) |
+|        | Feature is expected to do X when the user does Y | Tested the feature by doing Y | The feature did not respond to A, B, or C. | I did Z to the code because something was missing | ![screenshot](documentation/feature04.png) |
+| Gallery| | | | | |
+|        | Feature is expected to do X when the user does Y | Tested the feature by doing Y | The feature behaved as expected, and it did Y | Test concluded and passed | ![screenshot](documentation/feature05.png) |
+|        | Feature is expected to do X when the user does Y | Tested the feature by doing Y | The feature did not respond to A, B, or C. | I did Z to the code because something was missing | ![screenshot](documentation/feature06.png) |
+| Contact| | | | | |
+|        | Feature is expected to do X when the user does Y | Tested the feature by doing Y | The feature behaved as expected, and it did Y | Test concluded and passed | ![screenshot](documentation/feature07.png) |
+|        | Feature is expected to do X when the user does Y | Tested the feature by doing Y | The feature did not respond to A, B, or C. | I did Z to the code because something was missing | ![screenshot](documentation/feature08.png) |
 
-🛑🛑🛑🛑🛑 START OF NOTES (to be deleted) 🛑🛑🛑🛑🛑
 
-Another way of performing defensive testing is a simple Pass/Fail for each test.
-The assessors prefer the above method, with the full test explained, but this is also acceptable in most cases.
 
-When in doubt, use the above method instead, and delete the table below.
-
-🛑🛑🛑🛑🛑 END OF NOTES (to be deleted) 🛑🛑🛑🛑🛑
-
-| Page | User Action | Expected Result | Pass/Fail | Comments |
-| --- | --- | --- | --- | --- |
-| Home | | | | |
-| | Click on Logo | Redirection to Home page | Pass | |
-| | Click on Home link in navbar | Redirection to Home page | Pass | |
-| Gallery | | | | |
-| | Click on Gallery link in navbar | Redirection to Gallery page | Pass | |
-| | Load gallery images | All images load as expected | Pass | |
-| Contact | | | | |
-| | Click on Contact link in navbar | Redirection to Contact page | Pass | |
-| | Enter first/last name | Field will accept freeform text | Pass | |
-| | Enter valid email address | Field will only accept email address format | Pass | |
-| | Enter message in textarea | Field will accept freeform text | Pass | |
-| | Click the Submit button | Redirects user to form-dump | Pass | User must click 'Back' button to return |
-| Sign Up | | | | |
-| | Click on Sign Up button | Redirection to Sign Up page | Pass | |
-| | Enter valid email address | Field will only accept email address format | Pass | |
-| | Enter valid password (twice) | Field will only accept password format | Pass | |
-| | Click on Sign Up button | Asks user to confirm email page | Pass | Email sent to user |
-| | Confirm email | Redirects user to blank Sign In page | Pass | |
-| Log In | | | | |
-| | Click on the Login link | Redirection to Login page | Pass | |
-| | Enter valid email address | Field will only accept email address format | Pass | |
-| | Enter valid password | Field will only accept password format | Pass | |
-| | Click Login button | Redirects user to home page | Pass | |
-| Log Out | | | | |
-| | Click Logout button | Redirects user to logout page | Pass | Confirms logout first |
-| | Click Confirm Logout button | Redirects user to home page | Pass | |
-| Profile | | | | |
-| | Click on Profile button | User will be redirected to the Profile page | Pass | |
-| | Click on the Edit button | User will be redirected to the edit profile page | Pass | |
-| | Click on the My Orders link | User will be redirected to the My Orders page | Pass | |
-| | Brute forcing the URL to get to another user's profile | User should be given an error | Pass | Redirects user back to own profile |
-| repeat for all remaining pages | x | x | x | x |
-
-🛑🛑🛑🛑🛑 START OF NOTES (to be deleted) 🛑🛑🛑🛑🛑
-
-Repeat for all other tests, as applicable to your own site.
-The aforementioned tests are just an example of a few different project scenarios.
-
-🛑🛑🛑🛑🛑 END OF NOTES (to be deleted) 🛑🛑🛑🛑🛑
 
 ## Bugs
 
@@ -233,7 +173,7 @@ I started the project using the desktop view and towards the end of the project 
 
     - Bug with Win message position
 
-    ![screenshot](documentation/test/thankyou-bug1.png)
+    ![screenshot](documentation/test/bug-2-media-queries.png)
 
     - Attempted fix: I tried to add additional media queries to handle the position of the message and I experienced a similar problem as above.
 
