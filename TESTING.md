@@ -149,6 +149,7 @@ Defensive programming was manually tested with the below user acceptance testing
 ## Bugs
 
 - JS Uncaught TypeError: Cannot read properties of null script.js:71 (reading 'addEventListener')
+
     ![screenshot](documentation/test/bug-1-script.js-feedback.png)
 
     - To fix this, I removed line 94 from my feedback.html page as I had no JS within that page it caused the above bug.
