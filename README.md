@@ -1,6 +1,6 @@
 # [TIC TAC TOE](https://riiyu7.github.io/Tic-Tac-Toe)
 
-Welcome to 'Love Tic Tac Toe'. Love Tic Tac Toe  is an interactive web-based game of the classic strategy of tic-tac-toe, a fun free game for all ages for the times where you need to sit back, relax and play.
+Welcome to 'Love Tic Tac Toe'. Love Tic Tac Toe  is an interactive web-based game of the classic strategy of tic-tac-toe, a fun free game for all ages for times where you need to sit back, relax, and play.
 
 ![screen](documentation/readme/mockup.png)
 
@@ -23,7 +23,7 @@ I have used [coolors.co](https://coolors.co/8052ec-d161ff-333333-f2f2f2-dddddd) 
 
 ### Typography
 
-For Love Tic Tac Toe I used Google Font 'Raleway' as my primary font with Sans-serif being my secondary text.
+For Love Tic Tac Toe, I used Google Font 'Raleway' as my primary font, with sans-serif being my secondary text.
 
 - [Raleway](https://fonts.google.com/specimen/Raleway) was used for the primary headers and titles.
 
@@ -33,7 +33,7 @@ For Love Tic Tac Toe I used Google Font 'Raleway' as my primary font with Sans-s
 
 ### CSS Implementation
 
-Raleway font is included at the beginning of my CSS file using the '@import' method from google Fonts. This ensure's that Raleway is loaded as soon as CSS is loaded.
+Raleway font is included at the beginning of my CSS file using the '@import' method from Google Fonts. This ensures that Raleway is loaded as soon as CSS is loaded.
 
 ```css
 /* Importing Google Fonts */
@@ -48,28 +48,28 @@ My targets for users visiting Love Tic Tac Toe include:
 
 - Providing a fun and relaxed game that could be played with friends or family.
 - Providing a clean yet visually appealing website for users.
-- Accessibility, so users can play Love Tic Tac Toe across different devices. 
-- Ease of use, creating a website which is easy to navigate and a game that is easy to play.
+- Accessibility so users can play Love Tic Tac Toe across different devices. 
+- Ease of use, creating a website that is easy to navigate, and a game that is easy to play.
 
 ### Returning Site Users
 
 My targets for returning users include:
 
 - Collecting user feedback to continuously improve the game and website.
-- Provide a multiplayer function which allows users to play each other from diffrent locations.
-- Include a leaderboard system which provides a competitive factor to the game.
+- Provide a multiplayer function that allows users to play with each other from different locations.
+- Include a leaderboard system that provides a competitive factor to the game.
 - Include a reward system which rewards players for continuous plays and wins.
 
 ### Expectations
 
-When users visit Love Tic Tac Toe, users can expect:
+When users visit Love Tic Tac Toe, they can expect:
 
-- A visually appealing design throught the website and the game.
-- Continuous website and game updates, changing styles of the board to keep the look of the game visually appealing and ensuring the look doesnt get dull for users.
+- A visually appealing design throughtout the website and the game.
+- Continuous website and game updates, changing styles of the board to keep the look of the game visually appealing, and ensuring the look doesn't get dull for users.
 
 ## Wireframes
 
-I've used [Balsamiq](https://balsamiq.com/wireframes) to design my site wireframes.
+I've used [Balsamiq](https://balsamiq.com/wireframes) to design my site's wireframes.
 
 ### Mobile Wireframes
 
@@ -120,21 +120,21 @@ I've used [Balsamiq](https://balsamiq.com/wireframes) to design my site wirefram
 
 - Scoreboard Hover
 
-    - I have added a hover feature over the board which displays a purple box on the square which is selected, this is done so players are aware of what position they have the cursor at.
+    - I have added a hover feature over the board that displays a purple box on the square that is selected. This is done so players are aware of what position they have the cursor in.
 
 
 ![screenshot](documentation/readme/interactive-board.png)
 
 - Turn Counter
 
-    - A Turn counter is added to provide a easy visual representation of which players turn it is.
+    - A Turn counter is added to provide an easy visual representation of which player's turn it is.
 
 
 ![screenshot](documentation/readme/turn-counter.png)
 
 - Feedback Form
 
-    - A feedback form has been included within my website so I am able to collect user data and enhance my website regularly.
+    - A feedback form has been included within my website, so I am able to collect user data and enhance it regularly.
 
 
 ![screenshot](documentation/readme/feedback-form.png)
@@ -144,22 +144,22 @@ I've used [Balsamiq](https://balsamiq.com/wireframes) to design my site wirefram
 ### Future Features
 
 - Leaderboard
-    - Introduce a leaderboard within the game mechanics which shows the players with the most wins.
+    - Introduce a leaderboard within the game mechanics that shows the players with the most wins.
 
 - Multiplayer feature
     - Introduce a multiplayer function where players can challenge others within the leaderboard or friends from different locations.
 
 - Vs Ai
-    - Add a AI player where plays can compete and train their logical skills against an AI.
+    - Add a AI player where players can compete and train their logical skills against an AI.
 
 - Tic Tac Tournament
-    - Add weekly, Monthly and Yearly tournaments where all players can compete for prizes.
+    - Add weekly, monthly, and yearly tournaments where all players can compete for prizes.
 
 - Tic Tac XL
-    - Implement new Tic Tac Toe boards which include bigger grids and 2 v 2 modes.
+    - Implement new Tic Tac Toe boards that include bigger grids and 2 v 2 modes.
 
 - Reward system
-    - Introduce a reward system where Top players get rewarded for obtaining wins or winning tournaments
+    - Introduce a reward system where top players get rewarded for obtaining wins or winning tournaments.
 
 ## Tools & Technologies Used
 
@@ -226,7 +226,7 @@ Throughout the project and the development of 'Love Tic Tac Toe,' I ensured a re
 
 ## Credits
 
-The Information I obtained from a range of sources assited me in the completion of the project and I am very grateful for the resources and the assitance i received.
+The information I obtained from a range of sources assisted me in the completion of the project, and I am very grateful for the resources and assitance I received.
 
 ### Content
 | Source                                                                                                           | Location                         | Notes                                                                  |
@@ -254,14 +254,14 @@ The Information I obtained from a range of sources assited me in the completion 
   
 ### Media
 
-I obatianed my Social media Icons from [Font Awesome](https://fontawesome.com):
+I obtained my social media icons from [Font Awesome](https://fontawesome.com):
 
 - [Facebook](https://fontawesome.com/icons/facebook?f=brands&s=solid)
 - [Instagram](https://fontawesome.com/icons/instagram?f=brands&s=solid)
 - [Twitter](https://fontawesome.com/icons/twitter?f=brands&s=solid)
 - [Youtube](https://fontawesome.com/icons/square-youtube?f=brands&s=solid)
 
-I also used [Flaticon](https://www.flaticon.com/) to obtain my logo which i then used [Favicon](https://favicon.io/) to create favicons of various sizes.
+I also used [Flaticon](https://www.flaticon.com/) to obtain my logo, which I then used [Favicon](https://favicon.io/) to create favicons of various sizes.
 
 ### Acknowledgements
 
