@@ -139,13 +139,12 @@ Defensive programming was manually tested with the below user acceptance testing
 | Feedback | | | | | |
 |        | Name field is expected to show error message when left empty. | Tested the feature by leaving field bank and clicking 'Submit'. | The feature behaved as expected, and displayed error message. | Test concluded and passed. | ![screenshot](documentation/test/dp-feedback-1.png) |
 |        | Email Name field is expected to show error message when left empty. | Tested the feature by leaving field bank and clicking submit.  | The feature behaved as expected, and displayed error message. | Test concluded and passed. | ![screenshot](documentation/test/dp-feedback-2.png) |
-|        | Submit button redirects to thankyou.html | Tested the feature by adding information to fields and clicking submit | The feature did not respond to A, B, or C. | I did Z to the code because something was missing | ![screenshot](documentation/test/dp-feedback-3.png) |
-| Thank You| | | | | |
-|        | Feature is expected to do X when the user does Y | Tested the feature by doing Y | The feature behaved as expected, and it did Y | Test concluded and passed | ![screenshot](documentation/feature07.png) |
-|        | Feature is expected to do X when the user does Y | Tested the feature by doing Y | The feature did not respond to A, B, or C. | I did Z to the code because something was missing | ![screenshot](documentation/feature08.png) |
-
-| All | Nav Bar
-|     | Social media
+|        | Submit button redirects to thankyou.html. | Tested the feature by adding information to fields and clicking submit. | The feature behaved as expected, and it redirects to thankyou.html  | Test concluded and passed. | ![screenshot](documentation/test/dp-feedback-3.png) |
+| Thank You | | | | | |
+|        | Countdown timer countsdown to 10 before redirecting user to index.html. | Tested the feature by waiting 10 seconds. | The feature behaved as expected, and it redirected to index.html. | Test concluded and passed. | ![screenshot](documentation/test/dp-Thankyou-1.png) |
+|        | Play Now feature is expected to redirect to play.html when the user clicks the button. | Tested the feature by clicking 'Play Now' button. | The feature behaved as expected, and it redirects to play.html. | Test concluded and passed.  | ![screenshot](documentation/test/dp-Thankyou-2.png) |
+| All Pages | Nav Bar
+|           | Social media
 
 
 
